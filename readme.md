@@ -17,10 +17,14 @@ The main script contains 3 nested loops:
 
 ## Setup
 
+### Prerequisites
+
+1. Install and add https://www.putty.org/ and add `putty` and `pscp` on the Windows path, so you can run `.bat` helper scripts.
+
 ### Create SV Server AMI
 
 1. Create new EC2 machine (the setup was tested in `Amazon Linux 2023`).
-1. Configure environment variables in `env.bat` and set 
+1. Copy `env-template.bat` to `env.bat` and configure environment variables in it. Set:
    - `SV_SERVER_HOST` to the public hostname of EC2 machine
    - `CERTIFICATE_PPK` and `CERTIFICATE_PEM` to the value of your key you used to create the EC2 machine
 1. Run `upload-to-sv-machine.bat` to get content of `upload-to-sv-machine` to your new EC2 machine
