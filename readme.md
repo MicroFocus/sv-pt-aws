@@ -99,6 +99,7 @@ Used schortcuts in the CSV column names:
 - DM - Data Model
 - PM - Performance Model
 - CW - CloudWatch
+- PI - Performance Insights
 
 Following data are collected:
 
