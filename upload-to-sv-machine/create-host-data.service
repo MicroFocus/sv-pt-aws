@@ -1,0 +1,8 @@
+[Unit]
+Description=create-host-data
+
+[Service]
+ExecStart=/bin/bash /home/ec2-user/create-host-data.sh
+
+[Install]
+WantedBy=multi-user.target

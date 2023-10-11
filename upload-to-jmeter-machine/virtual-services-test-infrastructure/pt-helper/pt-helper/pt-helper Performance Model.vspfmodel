@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<performanceModel version="5.9.0.1616" id="e934f71c-6d14-4bee-b7d4-51234be662ab" name="pt-helper Performance Model" description="Performance Model for pt-helper" virtualServiceId="9baf3683-1b6a-437b-bbfd-c617235a0712" isPerformanceBoostingActive="true" activeBoosterId="Cpu" isServiceBoostingActive="true" xmlns="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <throughputMetric isActive="false" limit="0" />
+  <tpsMetric isActive="false" limit="1000" />
+  <operation operationId="any-uri-operation" isOperationBoostingActive="true">
+    <throughputMetric isActive="false" limit="10000" />
+    <tpsMetric isActive="false" limit="1000" />
+    <PeriodicMessageSchedulingSpecification isActive="false" bss="SequentialSingleThreaded" frequency="60000">
+      <relativeMessageSchedulingStartSpecification startDelay="0" />
+    </PeriodicMessageSchedulingSpecification>
+    <responseTimeMetric responseTimeMode="ValueWithTolerance" baseResponseTime="100" baseResponseTimeAbsMin="0" baseResponseTimeAbsMax="0" hitRateThreshold="1000" maximumResponseTime="1000" multiResponseIntervalTime="0" maximumHitRate="2000" tolerance="0.2" totalDatapointsCount="0">
+      <datapointsCluster meanHitRate="125.11873492362764" meanResponseTime="103.52776888922219" hitRateDiameter="57.073596637518641" responseTimeDiameter="15.727753469593708" datapointsCount="23" />
+      <datapointsCluster meanHitRate="393.45312064886025" meanResponseTime="101.21486561429448" hitRateDiameter="74.711630388494413" responseTimeDiameter="11.8261922462034" datapointsCount="24" />
+      <datapointsCluster meanHitRate="517.55114131239088" meanResponseTime="100.5727979496926" hitRateDiameter="69.199724398519379" responseTimeDiameter="14.793427367598483" datapointsCount="17" />
+      <datapointsCluster meanHitRate="689.31664012467672" meanResponseTime="103.87124573526496" hitRateDiameter="67.764325818614509" responseTimeDiameter="17.033590852298584" datapointsCount="15" />
+      <datapointsCluster meanHitRate="866.48197605576445" meanResponseTime="99.596843090651944" hitRateDiameter="77.1979819390236" responseTimeDiameter="11.914456021932166" datapointsCount="13" />
+      <datapointsCluster meanHitRate="1040.4987733745731" meanResponseTime="197.99923904316304" hitRateDiameter="75.275780519979989" responseTimeDiameter="26.992276132992188" datapointsCount="16" />
+      <datapointsCluster meanHitRate="1331.7924193381634" meanResponseTime="336.33178483439315" hitRateDiameter="61.300132240520178" responseTimeDiameter="52.418621876979969" datapointsCount="19" />
+      <datapointsCluster meanHitRate="1510.045276514953" meanResponseTime="468.95092591806144" hitRateDiameter="82.119972663225425" responseTimeDiameter="74.286452722191768" datapointsCount="21" />
+      <datapointsCluster meanHitRate="1632.7135480754011" meanResponseTime="710.81549903373525" hitRateDiameter="58.152151702127412" responseTimeDiameter="86.609052040474467" datapointsCount="24" />
+      <datapointsCluster meanHitRate="1820.6227149571735" meanResponseTime="842.46719936023794" hitRateDiameter="68.5067391130385" responseTimeDiameter="155.18574449686852" datapointsCount="17" />
+    </responseTimeMetric>
+  </operation>
+  <operation operationId="d425a4b8-3972-43ef-b4d9-68adb76ba997" isOperationBoostingActive="true">
+    <throughputMetric isActive="false" limit="0" />
+    <tpsMetric isActive="false" limit="0" />
+    <PeriodicMessageSchedulingSpecification isActive="false" bss="SequentialSingleThreaded" frequency="60000">
+      <relativeMessageSchedulingStartSpecification startDelay="0" />
+    </PeriodicMessageSchedulingSpecification>
+    <responseTimeMetric responseTimeMode="ValueWithTolerance" baseResponseTime="0" baseResponseTimeAbsMin="0" baseResponseTimeAbsMax="0" hitRateThreshold="0" maximumResponseTime="0" multiResponseIntervalTime="0" maximumHitRate="0" tolerance="0" totalDatapointsCount="0" />
+  </operation>
+  <operation operationId="337a688d-3a95-44f1-8e95-d0fbda8a928e" isOperationBoostingActive="true">
+    <throughputMetric isActive="false" limit="0" />
+    <tpsMetric isActive="false" limit="0" />
+    <PeriodicMessageSchedulingSpecification isActive="false" bss="SequentialSingleThreaded" frequency="60000">
+      <relativeMessageSchedulingStartSpecification startDelay="0" />
+    </PeriodicMessageSchedulingSpecification>
+    <responseTimeMetric responseTimeMode="ValueWithTolerance" baseResponseTime="0" baseResponseTimeAbsMin="0" baseResponseTimeAbsMax="0" hitRateThreshold="0" maximumResponseTime="0" multiResponseIntervalTime="0" maximumHitRate="0" tolerance="0" totalDatapointsCount="0" />
+  </operation>
+  <boosterValues boosterId="Cpu">
+    <sliderValue value="0" />
+  </boosterValues>
+  <boosterValues boosterId="Network">
+    <sliderValue value="0" />
+  </boosterValues>
+  <boosterValues boosterId="Cluster">
+    <sliderValue value="0" />
+  </boosterValues>
+  <boosterValues boosterId="Expert">
+    <sliderValue value="0" />
+    <sliderValue value="0" />
+    <sliderValue value="0" />
+    <sliderValue value="0" />
+  </boosterValues>
+</performanceModel>

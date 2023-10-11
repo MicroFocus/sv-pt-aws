@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ds version="5.9.0.1616" id="c4dcb5f9-fc31-4b87-bb05-3f1ffde4b478" vsId="d469b40b-f587-4334-9099-1d5073abf802" dmId="f0461b6e-8b09-40cc-92f4-7453cd7d091c" sorId="a83eb006-6120-426e-82bb-6a01317f46f3" hc="1536132476" xmlns="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <sc id="dd27c202-f188-49ca-a59a-d0e497aa7c6d" ts="2023-08-30T18:44:34.434Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">f4c8e1ff-66d6-4174-b8c4-ca2858477622</ntId>
+    <ntId p="6:1">a40d5cde-4bcc-4fe4-9776-147ca6f0faa5</ntId>
+    <s p="8:1">200</s>
+    <s p="10:1">text/xml</s>
+    <s p="11:1"></s>
+    <s p="12:1">::1</s>
+    <ec p="15:1" />
+    <s p="16:1">POST</s>
+    <s p="17:1">HTTPS</s>
+    <s p="39:1">Hedging</s>
+    <s p="40:1">20</s>
+    <s p="43:1">10000.00</s>
+    <s p="44:1">CZK</s>
+    <s p="45:1">John</s>
+    <s p="46:1">Doe</s>
+    <s p="47:1">Spain</s>
+    <s p="48:1">Madridf</s>
+    <s p="49:1">Wed, 30 Aug 2023 18:44:34 GMT</s>
+    <s p="51:1">Unsupported currency. Only USD is supported at this moment of development.</s>
+  </sc>
+</ds>

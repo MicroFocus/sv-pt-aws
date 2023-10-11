@@ -1,0 +1,77 @@
+version: '3'
+
+volumes:
+  sv.work:
+  sv.app.config:
+  sv.logs:
+  postgres.data:
+  apls.logs:
+  apls.config:
+  apls.data:
+  
+services:
+  sv-server:
+    image: virtualization/sv-server:2023.R1
+    container_name: sv-server
+    restart: always
+    tty: true
+    environment:
+      - SV_SSL_CERTIFICATE_GENERATE=true
+      - SV_DB_WAIT_FOR=sv-db:5432
+      - SV_SERVER_AGENT_PORTS=6060-6080
+      - SV_DB_TYPE=postgresql
+      - SV_DB_DATASOURCE=;Host=sv-db;Database=postgres;Port=5432
+      - SV_DB_USERNAME=postgres
+      - SV_DB_PASSWORD=password
+#      - SV_DB_RECREATE=true
+      - SV_LICENSE_SERVER_URL=https://apls:5814 
+#      - SV_HOSTNAME=${hostname} # unable to provide valid public hostname, so just ignoring
+      - SV_SIMULATION_DATA_PROVIDER=inMemory
+    ports:
+      - 6085:6085 # secure REST endpoint
+      - 6060-6080:6060-6080 # SV agents
+    volumes:
+      - sv.work:/opt/microfocus/sv-server/work
+      - sv.app.config:/opt/microfocus/sv-server/app.config
+      - sv.logs:/opt/microfocus/sv-server/logs
+      - ${PWD}/host-data:/opt/microfocus/sv-server/host/host-data
+    stop_grace_period: 2m
+    depends_on:
+      - sv-db
+  sv-svm:
+    image: virtualization/sv-svm:2023.R1
+    container_name: sv-svm
+    restart: always
+    tty: true
+    environment:
+      - SV_SSL_CERTIFICATE_GENERATE=false
+#      - SV_HOSTNAME=${hostname} # unable to provide valid public hostname, so just ignoring
+    ports:
+      - 6086:6086 # secure WWW
+    volumes:
+      - sv.work:/opt/microfocus/sv-server/work
+      - sv.logs:/opt/microfocus/sv-server/logs
+    stop_grace_period: 2m
+  sv-db:
+    image: postgres:15.4
+    container_name: sv-db
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=password
+    ports:
+      - 5432:5432 # secure REST endpoint
+    volumes:
+      - postgres.data:/var/lib/postgresql/data
+  apls:
+    image: mfsharedtech/apls:2023.06-2023062317 # using older APLS since installing the license using proven CLI command on newer versions don't work
+    container_name: sv-apls
+    restart: always
+    privileged: true
+    ports:
+      - 5814:5814
+    environment:
+     - EULA=true
+    volumes:
+      - apls.logs:/logs/
+      - apls.config:/config/
+      - apls.data:/var/opt/autopass/apls/licenseserver/data/

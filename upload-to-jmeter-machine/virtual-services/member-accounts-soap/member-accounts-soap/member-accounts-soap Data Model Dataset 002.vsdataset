@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ds version="5.9.0.1616" id="5bfa3ac7-e816-413e-aafc-942235560cee" vsId="145059a3-78a4-47df-a467-7a4f8291db64" dmId="7697cb2a-14e6-4fae-994b-0bf09adbaa25" sorId="5b7cb8ac-80ff-411b-af1d-b4527a04b3d0" hc="-1717113726" xmlns="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <sc id="4fe76f54-ad8d-4d8c-9bd5-e104fa0311ad" ts="2021-12-10T12:33:45.0936625Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_InputMessage</ntId>
+    <s p="18:2">0</s>
+    <s p="19:2">0</s>
+    <s p="20:2">sim_default_socialSecurityNumber</s>
+    <s p="37:1">sim_default_Date</s>
+  </sc>
+  <sc id="fcd1aeea-5614-488d-a257-7cf715287b70" ts="2021-12-10T12:33:45.0937706Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">default-fault</ntId>
+    <s p="7:1">sim_default_faultcode</s>
+    <s p="9:1">sim_default_faultactor</s>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_InputMessage</ntId>
+    <s p="21:1">sim_default_lang</s>
+    <s p="22:1">sim_default_value</s>
+    <s p="25:2"></s>
+    <s p="37:1">sim_default_Date</s>
+  </sc>
+</ds>

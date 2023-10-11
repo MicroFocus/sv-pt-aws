@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.3.0
+Project("") = "member-accounts-soap", "member-accounts-soap\member-accounts-soap.vproj", "{A71B533D-D7E4-4656-A913-78450CF3CDD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A71B533D-D7E4-4656-A913-78450CF3CDD9}.Debug|x86.Build.0 = Debug|x86
+		{A71B533D-D7E4-4656-A913-78450CF3CDD9}.Debug|x86.ActiveCfg = Debug|x86
+		{A71B533D-D7E4-4656-A913-78450CF3CDD9}.Release|x86.Build.0 = Release|x86
+		{A71B533D-D7E4-4656-A913-78450CF3CDD9}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

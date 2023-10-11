@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ds version="5.9.0.1616" id="db734583-df84-422b-abcf-446ef67d4873" vsId="d469b40b-f587-4334-9099-1d5073abf802" dmId="f0461b6e-8b09-40cc-92f4-7453cd7d091c" sorId="e6bfe819-696a-4003-90a6-2b9bc39efaf3" hc="-1984887173" xmlns="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <sc id="6c0bd803-b620-4ca4-aa2a-522bdb9e2fb0" ts="2023-08-30T18:51:14.9223618Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">f4c8e1ff-66d6-4174-b8c4-ca2858477622</ntId>
+    <ntId p="6:1">a40d5cde-4bcc-4fe4-9776-147ca6f0faa5</ntId>
+    <s p="10:1">application/xml</s>
+    <s p="44:1">CZK</s>
+    <s p="51:1">Unsupported currency. Only USD is supported at this moment of development.</s>
+  </sc>
+</ds>

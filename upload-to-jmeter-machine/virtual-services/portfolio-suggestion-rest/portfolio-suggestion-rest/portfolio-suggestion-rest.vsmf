@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<deploymentManifest id="manifest_d469b40b-f587-4334-9099-1d5073abf802" rootItemId="d469b40b-f587-4334-9099-1d5073abf802" xmlns="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <Item id="d469b40b-f587-4334-9099-1d5073abf802" type="VirtualService">
+    <References>
+      <Ref id="01210dc1-f48e-4b9f-a6b2-1ffd53a0f733" />
+      <Ref id="66e4dfed-d2e7-40b3-9156-9c4a22f7802f" />
+      <Ref id="dd7009ce-fe13-42f8-851b-054d6427e1c0" />
+      <Ref id="e5afab3f-dac9-46a8-9126-19f936832394" />
+      <Ref id="f0461b6e-8b09-40cc-92f4-7453cd7d091c" />
+    </References>
+  </Item>
+  <Item id="f0461b6e-8b09-40cc-92f4-7453cd7d091c" type="DataModel">
+    <References>
+      <Ref id="06d10a34-ba2a-4379-902e-3d7d8fc28e64" />
+      <Ref id="184b8a5b-49cc-4496-8498-e535a239cbc8" />
+      <Ref id="3444f892-6114-49bf-9ac3-7954839604fc" />
+      <Ref id="5f81af94-9a6e-4d5c-8a1f-55eb5cf93a6b" />
+      <Ref id="66e4dfed-d2e7-40b3-9156-9c4a22f7802f" />
+      <Ref id="8f4d6393-4039-4648-96f6-eda0cfb08013" />
+      <Ref id="90a64c82-9761-43c7-a591-6690ca819a54" />
+      <Ref id="966c6aeb-c7bd-497f-95b4-bf5602559cd3" />
+      <Ref id="c4dcb5f9-fc31-4b87-bb05-3f1ffde4b478" />
+      <Ref id="db734583-df84-422b-abcf-446ef67d4873" />
+    </References>
+  </Item>
+  <Item id="e5afab3f-dac9-46a8-9126-19f936832394" type="PerformanceModel">
+    <References />
+  </Item>
+  <Item id="dd7009ce-fe13-42f8-851b-054d6427e1c0" type="PerformanceModel">
+    <References />
+  </Item>
+  <Item id="01210dc1-f48e-4b9f-a6b2-1ffd53a0f733" type="PerformanceModel">
+    <References />
+  </Item>
+  <Item id="966c6aeb-c7bd-497f-95b4-bf5602559cd3" type="Dataset" contentHashcode="1792164364">
+    <References />
+  </Item>
+  <Item id="66e4dfed-d2e7-40b3-9156-9c4a22f7802f" type="ServiceDescription">
+    <References />
+  </Item>
+  <Item id="5f81af94-9a6e-4d5c-8a1f-55eb5cf93a6b" type="Dataset" contentHashcode="93979255">
+    <References />
+  </Item>
+  <Item id="06d10a34-ba2a-4379-902e-3d7d8fc28e64" type="Dataset" contentHashcode="-1951984732">
+    <References />
+  </Item>
+  <Item id="3444f892-6114-49bf-9ac3-7954839604fc" type="Dataset" contentHashcode="-35779892">
+    <References />
+  </Item>
+  <Item id="90a64c82-9761-43c7-a591-6690ca819a54" type="Dataset" contentHashcode="-541329335">
+    <References />
+  </Item>
+  <Item id="8f4d6393-4039-4648-96f6-eda0cfb08013" type="Dataset" contentHashcode="-228869459">
+    <References />
+  </Item>
+  <Item id="c4dcb5f9-fc31-4b87-bb05-3f1ffde4b478" type="Dataset" contentHashcode="1536132476">
+    <References />
+  </Item>
+  <Item id="184b8a5b-49cc-4496-8498-e535a239cbc8" type="Dataset" contentHashcode="-807654180">
+    <References />
+  </Item>
+  <Item id="db734583-df84-422b-abcf-446ef67d4873" type="Dataset" contentHashcode="-1984887173">
+    <References />
+  </Item>
+</deploymentManifest>

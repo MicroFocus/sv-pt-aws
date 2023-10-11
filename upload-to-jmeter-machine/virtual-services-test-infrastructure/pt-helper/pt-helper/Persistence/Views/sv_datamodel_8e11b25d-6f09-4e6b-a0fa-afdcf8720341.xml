@@ -1,0 +1,3450 @@
+﻿<DataObject comparison="Ordinal">
+  <Section id="">
+    <Subsections>
+      <Section id="modelUISettings">
+        <Subsections />
+        <Entries>
+          <Entry key="dataModelId">
+            <string>8e11b25d-6f09-4e6b-a0fa-afdcf8720341</string>
+          </Entry>
+          <Entry key="virtualServiceId">
+            <string>9baf3683-1b6a-437b-bbfd-c617235a0712</string>
+          </Entry>
+          <Entry key="selectedOperationId">
+            <string>any-uri-operation</string>
+          </Entry>
+          <Entry key="selectedRuleId">
+            <string>6d3996ba-08eb-4517-b635-3d5d3af0b2cd</string>
+          </Entry>
+          <Entry key="selectedRuleExpanded">
+            <boolean>true</boolean>
+          </Entry>
+          <Entry key="isFunctionsVisible">
+            <boolean>true</boolean>
+          </Entry>
+        </Entries>
+      </Section>
+      <Section id="operation_any-uri-operation">
+        <Subsections>
+          <Section id="operationRule_5758af63-c765-48c6-9998-62e8e90ffdca">
+            <Subsections>
+              <Section id="tableHeader_0">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Functions</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Functions</string>
+                  </Entry>
+                  <Entry key="userWidth">
+                    <double>42</double>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_1">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Request</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_2">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Type;Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoice">
+                    <string>empty</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_3">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>HTTPInputParameters</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_4">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>UriPath;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>UriPath</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_5">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>ClientAddress;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>ClientAddress</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_6">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Parameters;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Parameters</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_7">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>UnnamedParameters;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>UnnamedParameters</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_8">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Headers</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_9">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Method;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Method</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_10">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Transport;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Transport</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_11">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Preview;Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Preview</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_12">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Response</string>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_13">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Type;Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoice">
+                    <string>empty</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_14">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>HTTPOutputParameters</string>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_15">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>StatusCode;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>StatusCode</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_16">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Headers</string>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_17">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Content-Type;Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Content-Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_18">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Preview;Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Preview</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_19">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/BINARY)xpath(ns0:BinaryContent);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>BinaryContent</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_20">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string />
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string />
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_21">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/BINARY)xpath(ns0:BinaryContent);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>BinaryContent</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+            </Subsections>
+            <Entries>
+              <Entry key="tableHeadersCount">
+                <int>22</int>
+              </Entry>
+            </Entries>
+          </Section>
+          <Section id="operationRule_6d3996ba-08eb-4517-b635-3d5d3af0b2cd">
+            <Subsections>
+              <Section id="tableHeader_0">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Functions</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Functions</string>
+                  </Entry>
+                  <Entry key="userWidth">
+                    <double>42</double>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_1">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Request</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_2">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Type;Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoice">
+                    <string>empty</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_3">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>HTTPInputParameters</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_4">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>UriPath;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>UriPath</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_5">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>ClientAddress;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>ClientAddress</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_6">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Parameters;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Parameters</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_7">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>UnnamedParameters;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>UnnamedParameters</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_8">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Headers</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_9">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Method;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Method</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_10">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Transport;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Transport</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_11">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Preview;Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Preview</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_12">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Response</string>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_13">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Type;Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoice">
+                    <string>empty</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_14">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>HTTPOutputParameters</string>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_15">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>StatusCode;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>StatusCode</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_16">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Headers</string>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_17">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Content-Type;Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Content-Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_18">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Preview;Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Preview</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_19">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/BINARY)xpath(ns0:BinaryContent);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>BinaryContent</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_20">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string />
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string />
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_21">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/BINARY)xpath(ns0:BinaryContent);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>BinaryContent</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+            </Subsections>
+            <Entries>
+              <Entry key="tableHeadersCount">
+                <int>28</int>
+              </Entry>
+            </Entries>
+          </Section>
+          <Section id="operationRule_89e5936b-7aae-4e63-90f4-f00727d6fbc5">
+            <Subsections>
+              <Section id="tableHeader_0">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Functions</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Functions</string>
+                  </Entry>
+                  <Entry key="userWidth">
+                    <double>42</double>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_1">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Request</string>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_2">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Type;Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoice">
+                    <string>empty</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_3">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>HTTPInputParameters</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_4">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string />
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string />
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_5">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/BINARY)xpath(ns0:BinaryContent);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>BinaryContent</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_6">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Preview;Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Preview</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_7">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Response</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_8">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Type;Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_9">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>HTTPOutputParameters</string>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_10">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>StatusCode;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>StatusCode</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_11">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Headers</string>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_12">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Content-Type;Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Content-Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_13">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/BINARY)xpath(ns0:BinaryContent);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>BinaryContent</string>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_14">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Data;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/BINARY)xpath(ns0:BinaryContent);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Data</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_15">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Filename;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/BINARY)xpath(ns0:BinaryContent);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Filename</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_16">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Mimetype;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/BINARY)xpath(ns0:BinaryContent);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Mimetype</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_17">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Preview;Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Preview</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+            </Subsections>
+            <Entries>
+              <Entry key="tableHeadersCount">
+                <int>18</int>
+              </Entry>
+            </Entries>
+          </Section>
+        </Subsections>
+        <Entries>
+          <Entry key="lastAccessed">
+            <dateTime>2023-10-02T10:50:10.271556+02:00</dateTime>
+          </Entry>
+          <Entry key="rulesWithSettings">
+            <string>5758af63-c765-48c6-9998-62e8e90ffdca,6d3996ba-08eb-4517-b635-3d5d3af0b2cd,89e5936b-7aae-4e63-90f4-f00727d6fbc5</string>
+          </Entry>
+          <Entry key="isVisible">
+            <boolean>true</boolean>
+          </Entry>
+        </Entries>
+      </Section>
+      <Section id="operation_d425a4b8-3972-43ef-b4d9-68adb76ba997">
+        <Subsections>
+          <Section id="operationRule_6d3996ba-08eb-4517-b635-3d5d3af0b2cd">
+            <Subsections>
+              <Section id="tableHeader_0">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Functions</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Functions</string>
+                  </Entry>
+                  <Entry key="userWidth">
+                    <double>42</double>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_1">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Request</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_2">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Type;Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoice">
+                    <string>empty</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_3">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>HTTPInputParameters</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_4">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string />
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string />
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_5">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Preview;Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Preview</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_6">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Response</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_7">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Type;Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoice">
+                    <string>empty</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_8">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>HTTPOutputParameters</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_9">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>StatusCode;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>StatusCode</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_10">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Headers</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_11">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Preview;Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Preview</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_12">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>UriPath;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>UriPath</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_13">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>ClientAddress;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>ClientAddress</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_14">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Parameters;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Parameters</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_15">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>UnnamedParameters;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>UnnamedParameters</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_16">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Headers</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_17">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Method;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Method</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_18">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Transport;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Transport</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_19">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Content-Type;Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Content-Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_20">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/BINARY)xpath(ns0:BinaryContent);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>BinaryContent</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+            </Subsections>
+            <Entries>
+              <Entry key="tableHeadersCount">
+                <int>24</int>
+              </Entry>
+            </Entries>
+          </Section>
+          <Section id="operationRule_5758af63-c765-48c6-9998-62e8e90ffdca">
+            <Subsections>
+              <Section id="tableHeader_0">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Functions</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Functions</string>
+                  </Entry>
+                  <Entry key="userWidth">
+                    <double>42</double>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_1">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Request</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_2">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Type;Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoice">
+                    <string>empty</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_3">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>HTTPInputParameters</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_4">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>UriPath;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>UriPath</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_5">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>ClientAddress;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>ClientAddress</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_6">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Parameters;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Parameters</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_7">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>UnnamedParameters;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>UnnamedParameters</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_8">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Headers</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_9">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Method;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Method</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_10">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Transport;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Transport</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_11">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Preview;Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Preview</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_12">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Response</string>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_13">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Type;Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_14">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>HTTPOutputParameters</string>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_15">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>StatusCode;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>StatusCode</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_16">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Headers</string>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_17">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Content-Type;Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Content-Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_18">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Preview;Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Preview</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_19">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/BINARY)xpath(ns0:BinaryContent);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>BinaryContent</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_20">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string />
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string />
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+            </Subsections>
+            <Entries>
+              <Entry key="tableHeadersCount">
+                <int>21</int>
+              </Entry>
+            </Entries>
+          </Section>
+        </Subsections>
+        <Entries>
+          <Entry key="lastAccessed">
+            <dateTime>2023-10-02T10:14:18.1109694+02:00</dateTime>
+          </Entry>
+          <Entry key="rulesWithSettings">
+            <string>6d3996ba-08eb-4517-b635-3d5d3af0b2cd,5758af63-c765-48c6-9998-62e8e90ffdca</string>
+          </Entry>
+          <Entry key="isVisible">
+            <boolean>true</boolean>
+          </Entry>
+        </Entries>
+      </Section>
+      <Section id="operation_337a688d-3a95-44f1-8e95-d0fbda8a928e">
+        <Subsections>
+          <Section id="operationRule_6d3996ba-08eb-4517-b635-3d5d3af0b2cd">
+            <Subsections>
+              <Section id="tableHeader_0">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Functions</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Functions</string>
+                  </Entry>
+                  <Entry key="userWidth">
+                    <double>42</double>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_1">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Request</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_2">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Type;Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoice">
+                    <string>empty</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_3">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>HTTPInputParameters</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_4">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string />
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string />
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_5">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Preview;Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Preview</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_6">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Response</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_7">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Type;Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoice">
+                    <string>empty</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_8">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>HTTPOutputParameters</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_9">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>StatusCode;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>StatusCode</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_10">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Headers</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_11">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Preview;Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Preview</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_12">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>UriPath;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>UriPath</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_13">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>ClientAddress;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>ClientAddress</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_14">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Parameters;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Parameters</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_15">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>UnnamedParameters;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>UnnamedParameters</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_16">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Headers</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_17">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Method;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Method</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_18">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Transport;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Transport</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_19">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Content-Type;Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Content-Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_20">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/BINARY)xpath(ns0:BinaryContent);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>BinaryContent</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+            </Subsections>
+            <Entries>
+              <Entry key="tableHeadersCount">
+                <int>24</int>
+              </Entry>
+            </Entries>
+          </Section>
+          <Section id="operationRule_89e5936b-7aae-4e63-90f4-f00727d6fbc5">
+            <Subsections>
+              <Section id="tableHeader_0">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Functions</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Functions</string>
+                  </Entry>
+                  <Entry key="userWidth">
+                    <double>42</double>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_1">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Request</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_2">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string />
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string />
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_3">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Response</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_4">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Type;Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoice">
+                    <string>empty</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_5">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>HTTPOutputParameters</string>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_6">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>StatusCode;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>StatusCode</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_7">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Headers</string>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_8">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Content-Type;Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Content-Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_9">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Preview;Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Preview</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+            </Subsections>
+            <Entries>
+              <Entry key="tableHeadersCount">
+                <int>10</int>
+              </Entry>
+            </Entries>
+          </Section>
+          <Section id="operationRule_5758af63-c765-48c6-9998-62e8e90ffdca">
+            <Subsections>
+              <Section id="tableHeader_0">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Functions</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Functions</string>
+                  </Entry>
+                  <Entry key="userWidth">
+                    <double>42</double>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_1">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Request</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_2">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Type;Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoice">
+                    <string>empty</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_3">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>HTTPInputParameters</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_4">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>UriPath;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>UriPath</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_5">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>ClientAddress;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>ClientAddress</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_6">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Parameters;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Parameters</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_7">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>UnnamedParameters;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>UnnamedParameters</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_8">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Headers</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_9">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Method;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Method</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_10">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Transport;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters);Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Transport</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_11">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Preview;Request</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Preview</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_12">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Response</string>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_13">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Type;Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoice">
+                    <string>empty</string>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_14">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>HTTPOutputParameters</string>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_15">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>StatusCode;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>StatusCode</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_16">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Headers</string>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_17">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Content-Type;Headers;xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Content-Type</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_18">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>Preview;Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>Preview</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_19">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string>xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/BINARY)xpath(ns0:BinaryContent);Response</string>
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string>BinaryContent</string>
+                  </Entry>
+                  <Entry key="childsInDefaultState">
+                    <boolean>true</boolean>
+                  </Entry>
+                  <Entry key="isExpanded">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                  <Entry key="isVisibleChecked">
+                    <boolean>true</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+              <Section id="tableHeader_20">
+                <Subsections />
+                <Entries>
+                  <Entry key="tableHeaderId">
+                    <string />
+                  </Entry>
+                  <Entry key="tableHeaderName">
+                    <string />
+                  </Entry>
+                  <Entry key="selectedChoiceByUser">
+                    <boolean>false</boolean>
+                  </Entry>
+                </Entries>
+              </Section>
+            </Subsections>
+            <Entries>
+              <Entry key="tableHeadersCount">
+                <int>24</int>
+              </Entry>
+            </Entries>
+          </Section>
+        </Subsections>
+        <Entries>
+          <Entry key="lastAccessed">
+            <dateTime>2023-10-02T10:10:04.4452882+02:00</dateTime>
+          </Entry>
+          <Entry key="rulesWithSettings">
+            <string>6d3996ba-08eb-4517-b635-3d5d3af0b2cd,89e5936b-7aae-4e63-90f4-f00727d6fbc5,5758af63-c765-48c6-9998-62e8e90ffdca</string>
+          </Entry>
+          <Entry key="isVisible">
+            <boolean>true</boolean>
+          </Entry>
+        </Entries>
+      </Section>
+    </Subsections>
+    <Entries />
+  </Section>
+</DataObject>

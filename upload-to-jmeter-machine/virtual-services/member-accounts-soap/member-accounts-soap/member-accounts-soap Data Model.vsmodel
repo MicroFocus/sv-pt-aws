@@ -1,0 +1,958 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataModel version="5.9.0.1616" id="7697cb2a-14e6-4fae-994b-0bf09adbaa25" name="MemberAccounts Data Model" description="Data Model for MemberAccounts" parentServiceId="145059a3-78a4-47df-a467-7a4f8291db64" serviceDescription="1549e34f-8779-4e12-82c6-fe0701595785" realServiceForwardingEnabled="false" xmlns="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <serviceDescriptions>
+    <serviceDescription serviceDescriptionId="1549e34f-8779-4e12-82c6-fe0701595785" />
+  </serviceDescriptions>
+  <serviceOperations>
+    <serviceOperation id="1e577116-90d8-46cd-9b69-9b0531b91366" operationId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:getMemberDetail/ns0:IMemberAccounts_getMemberDetail_InputMessage/)">
+      <activities>
+        <requestActivity id="5" name="Request" serviceDescriptionId="1549e34f-8779-4e12-82c6-fe0701595785" operationId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:getMemberDetail/ns0:IMemberAccounts_getMemberDetail_InputMessage/)" />
+        <responseActivity id="6" name="Response" serviceDescriptionId="1549e34f-8779-4e12-82c6-fe0701595785" operationId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:getMemberDetail/ns0:IMemberAccounts_getMemberDetail_InputMessage/)" />
+      </activities>
+      <serviceCallSchema operationId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:getMemberDetail/ns0:IMemberAccounts_getMemberDetail_InputMessage/)" operationName="getMemberDetail" timeStamp="638264945568605031">
+        <xpointerTree r="1" m="52">
+          <i v="1" c="2,3" />
+          <i v="2" p="1" c="11,12,13" />
+          <i v="3" p="1" c="4,5,6,7,8,9,10" />
+          <i v="4" p="1,3" />
+          <i v="5" p="1,3" c="14" />
+          <i v="6" p="1,3" c="15" />
+          <i v="7" p="1,3" />
+          <i v="8" p="1,3" c="41,42" />
+          <i v="9" p="1,3" />
+          <i v="10" p="1,3" c="43,44" />
+          <i v="11" p="1,2" />
+          <i v="12" p="1,2" c="46,47,48,49,50" />
+          <i v="13" p="1,2" c="52" />
+          <i v="14" p="1,3,5" c="51" />
+          <i v="15" p="1,3,6" c="16,17,18,19,20" />
+          <i v="16" p="1,3,6,15" c="21,22,23,24,25,26,27,28" />
+          <i v="17" p="1,3,6,15" />
+          <i v="18" p="1,3,6,15" />
+          <i v="19" p="1,3,6,15" c="29,30,31,32" />
+          <i v="20" p="1,3,6,15" c="38,39,40" />
+          <i v="21" p="1,3,6,15,16" />
+          <i v="22" p="1,3,6,15,16" />
+          <i v="23" p="1,3,6,15,16" />
+          <i v="24" p="1,3,6,15,16" />
+          <i v="25" p="1,3,6,15,16" />
+          <i v="26" p="1,3,6,15,16" />
+          <i v="27" p="1,3,6,15,16" />
+          <i v="28" p="1,3,6,15,16" />
+          <i v="29" p="1,3,6,15,19" />
+          <i v="30" p="1,3,6,15,19" />
+          <i v="31" p="1,3,6,15,19" c="33,34,35,36,37" />
+          <i v="32" p="1,3,6,15,19" />
+          <i v="33" p="1,3,6,15,19,31" />
+          <i v="34" p="1,3,6,15,19,31" />
+          <i v="35" p="1,3,6,15,19,31" />
+          <i v="36" p="1,3,6,15,19,31" />
+          <i v="37" p="1,3,6,15,19,31" />
+          <i v="38" p="1,3,6,15,20" />
+          <i v="39" p="1,3,6,15,20" />
+          <i v="40" p="1,3,6,15,20" />
+          <i v="41" p="1,3,8" />
+          <i v="42" p="1,3,8" />
+          <i v="43" p="1,3,10" />
+          <i v="44" p="1,3,10" c="45" />
+          <i v="45" p="1,3,10,44" />
+          <i v="46" p="1,2,12" />
+          <i v="47" p="1,2,12" />
+          <i v="48" p="1,2,12" />
+          <i v="49" p="1,2,12" />
+          <i v="50" p="1,2,12" />
+          <i v="51" p="1,3,5,14" />
+          <i v="52" p="1,2,13" />
+        </xpointerTree>
+        <arrayPointerTree r="1" m="2">
+          <i v="1" c="2" />
+          <i v="2" p="1" />
+        </arrayPointerTree>
+        <entityIdCache nfIndex="1">
+          <item id="1549e34f-8779-4e12-82c6-fe0701595785" index="0" refCount="2" />
+        </entityIdCache>
+        <serviceTypes>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:getMemberDetail/type::*)" dname="Type of element 'getMemberDetail'">
+            <children>
+              <ed ndId="memberId" dname="memberId" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:getMemberDetail/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:long)" name="memberId" namespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:getMemberDetailResponse/type::*)" dname="Type of element 'getMemberDetailResponse'">
+            <children>
+              <ed ndId="getMemberDetailResult" dname="getMemberDetailResult" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:getMemberDetailResponse/type::*)" stSdId="0" stNtId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Detail)" name="getMemberDetailResult" namespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" dname="Type of element 'HTTPInputParameters'">
+            <children>
+              <ed ndId="ClientAddress" dname="ClientAddress" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="ClientAddress" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="Parameters" dname="Parameters" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Parameters/type::*)" name="Parameters" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="UnnamedParameters" dname="UnnamedParameters" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:UnnamedParameters/type::*)" name="UnnamedParameters" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="Headers" dname="Headers" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Headers/type::*)" name="Headers" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="Transport" dname="Transport" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Transport/type::*)" name="Transport" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Headers/type::*)" dname="Type of element 'Headers'">
+            <children />
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Parameters/type::*)" dname="Type of element 'Parameters'">
+            <children />
+          </complexSchemaType>
+          <enumerationSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Transport/type::*)" dname="Type of element 'Transport'">
+            <typeFamily>String</typeFamily>
+            <xmlTypeCode>String</xmlTypeCode>
+            <facets>
+              <enumeration>
+                <value>HTTP</value>
+                <value>HTTPS</value>
+              </enumeration>
+            </facets>
+            <value>HTTP</value>
+            <value>HTTPS</value>
+          </enumerationSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:UnnamedParameters/type::*)" dname="Type of element 'UnnamedParameters'">
+            <children />
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*)" dname="Type of element 'HTTPOutputParameters'">
+            <children>
+              <ed ndId="Headers" dname="Headers" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*/groupBase::*/ns0:Headers/type::*)" name="Headers" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*/groupBase::*/ns0:Headers/type::*)" dname="Type of element 'Headers'">
+            <children>
+              <ed ndId="Date" dname="Date" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*/groupBase::*/ns0:Headers/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="Date" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultstring/type::*)" dname="Type of element 'faultstring'">
+            <children>
+              <ed ndId="@lang" dname="lang" defKind="Attribute" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultstring/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/XML/1998/namespace)xpath(attribute::ns0:lang/type::*)/lone" name="lang" namespace="http://www.w3.org/XML/1998/namespace" editable="false" />
+              <ed ndId="$" dname="content" defKind="Content" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultstring/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)/lone" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Address)" dname="Address">
+            <children>
+              <ed ndId="city" dname="city" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Address)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="city" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="country" dname="country" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Address)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="country" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="endDate" dname="endDate" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Address)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:dateTime)" name="endDate" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="line1" dname="line1" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Address)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="line1" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="line2" dname="line2" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Address)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="line2" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="startDate" dname="startDate" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Address)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:dateTime)" name="startDate" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="state" dname="state" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Address)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="state" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="zip" dname="zip" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Address)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="zip" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Detail)" dname="Detail">
+            <children>
+              <ed ndId="address" dname="address" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Detail)" stSdId="0" stNtId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Address)" name="address" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="householdId" dname="householdId" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Detail)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:long)" name="householdId" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="memberId" dname="memberId" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Detail)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:long)" name="memberId" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="person" dname="person" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Detail)" stSdId="0" stNtId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Person)" name="person" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="phone" dname="phone" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Detail)" stSdId="0" stNtId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Phone)" name="phone" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+            </children>
+          </complexSchemaType>
+          <enumerationSchemaType sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Gender)" dname="Gender">
+            <typeFamily>String</typeFamily>
+            <xmlTypeCode>String</xmlTypeCode>
+            <facets>
+              <enumeration>
+                <value>MALE</value>
+                <value>FEMALE</value>
+                <value>UNKNOWN</value>
+              </enumeration>
+            </facets>
+            <value>MALE</value>
+            <value>FEMALE</value>
+            <value>UNKNOWN</value>
+          </enumerationSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Name)" dname="Name">
+            <children>
+              <ed ndId="firstName" dname="firstName" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Name)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="firstName" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="lastName" dname="lastName" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Name)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="lastName" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="middleName" dname="middleName" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Name)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="middleName" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="prefix" dname="prefix" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Name)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="prefix" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="suffix" dname="suffix" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Name)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="suffix" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Person)" dname="Person">
+            <children>
+              <ed ndId="dateOfBirth" dname="dateOfBirth" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Person)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:dateTime)" name="dateOfBirth" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="gender" dname="gender" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Person)" stSdId="0" stNtId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Gender)" name="gender" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="name" dname="name" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Person)" stSdId="0" stNtId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Name)" name="name" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="socialSecurityNumber" dname="socialSecurityNumber" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Person)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="socialSecurityNumber" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Phone)" dname="Phone">
+            <children>
+              <ed ndId="extension" dname="extension" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Phone)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="extension" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="phoneNumber" dname="phoneNumber" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Phone)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="phoneNumber" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="phoneNumberType" dname="phoneNumberType" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Phone)" stSdId="0" stNtId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:PhoneNumberType)" name="phoneNumberType" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+            </children>
+          </complexSchemaType>
+          <enumerationSchemaType sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:PhoneNumberType)" dname="PhoneNumberType">
+            <typeFamily>String</typeFamily>
+            <xmlTypeCode>String</xmlTypeCode>
+            <facets>
+              <enumeration>
+                <value>DAY</value>
+                <value>EVENING</value>
+              </enumeration>
+            </facets>
+            <value>DAY</value>
+            <value>EVENING</value>
+          </enumerationSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail)" dname="detail">
+            <children>
+              <ed ndId="@*" dname="any attribute" defKind="Attribute" sdId="0" ntId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:anyType)" editable="false" />
+              <aed ndId="*" dname="any[]" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail)" stSdId="0" stNtId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail/groupBase::*/*/artificial::*)" editable="false" min="0" max="2147483647" />
+            </children>
+          </complexSchemaType>
+          <arrayEnvelopeSchemaType sdId="0" ntId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail/groupBase::*/*/artificial::*)" dname="any[]">
+            <ed ndId=":" dname="item" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail/groupBase::*/*/artificial::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:anyType)" editable="false" />
+          </arrayEnvelopeSchemaType>
+          <anySchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:anyType)" dname="anyType" />
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:anyURI)" dname="anyURI">
+            <typeFamily>String</typeFamily>
+            <xmlTypeCode>AnyUri</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:dateTime)" dname="dateTime">
+            <typeFamily>DateTime</typeFamily>
+            <xmlTypeCode>DateTime</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:long)" dname="long">
+            <typeFamily>Integer</typeFamily>
+            <xmlTypeCode>Long</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:QName)" dname="QName">
+            <typeFamily>QName</typeFamily>
+            <xmlTypeCode>QName</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" dname="string">
+            <typeFamily>String</typeFamily>
+            <xmlTypeCode>String</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)/lone" dname="string">
+            <typeFamily>String</typeFamily>
+            <xmlTypeCode>String</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/XML/1998/namespace)xpath(attribute::ns0:lang/type::*)/lone" dname="Type of attribute 'lang'">
+            <typeFamily>String</typeFamily>
+            <xmlTypeCode>None</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+        </serviceTypes>
+        <activityRoots>
+          <activityRootSchemaType activityId="5" activityInOut="Output" xPointer="2" sdId="0" ntId="Input:xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:getMemberDetail/ns0:IMemberAccounts_getMemberDetail_InputMessage/)" dname="OperationInputBase">
+            <childrenOfSubtypes>
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters)" dname="HTTPInputParameters" defKind="Element" sdId="0" ntId="common-input" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" name="HTTPInputParameters" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:getMemberDetail)" dname="getMemberDetail" defKind="Element" sdId="0" ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberDetail_InputMessage" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:getMemberDetail/type::*)" name="getMemberDetail" namespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" editable="false" />
+            </childrenOfSubtypes>
+            <subTypes>
+              <subTypeId ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberDetail_InputMessage" />
+            </subTypes>
+            <typeSelector />
+            <superTypes>
+              <nodeType ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberDetail_InputMessage">
+                <superTypeId ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberDetail_InputMessage" />
+                <superTypeId ntId="Input:xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:getMemberDetail/ns0:IMemberAccounts_getMemberDetail_InputMessage/)" />
+                <superTypeId ntId="common-input" />
+              </nodeType>
+            </superTypes>
+            <subTypeDisplayNames>
+              <nodeType ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberDetail_InputMessage" displayName="IMemberAccounts_getMemberDetail_InputMessage" />
+            </subTypeDisplayNames>
+          </activityRootSchemaType>
+          <activityRootSchemaType activityId="6" activityInOut="Input" xPointer="3" sdId="0" ntId="Output:xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:getMemberDetail/ns0:IMemberAccounts_getMemberDetail_InputMessage/)" dname="OperationOutputBase">
+            <childrenOfSubtypes>
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters)" dname="HTTPOutputParameters" defKind="Element" sdId="0" ntId="common-output" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*)" name="HTTPOutputParameters" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:getMemberDetailResponse)" dname="getMemberDetailResponse" defKind="Element" sdId="0" ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberDetail_OutputMessage" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:getMemberDetailResponse/type::*)" name="getMemberDetailResponse" namespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" editable="false" />
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultcode)" dname="faultcode" defKind="Element" sdId="0" ntId="default-fault" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:QName)" name="faultcode" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1" editable="false" />
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultstring)" dname="faultstring" defKind="Element" sdId="0" ntId="default-fault" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultstring/type::*)" name="faultstring" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1" editable="false" />
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultactor)" dname="faultactor" defKind="Element" sdId="0" ntId="default-fault" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:anyURI)" name="faultactor" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1" editable="false" />
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:detail)" dname="detail" defKind="Element" sdId="0" ntId="default-fault" stSdId="0" stNtId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail)" name="detail" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1" editable="false" />
+            </childrenOfSubtypes>
+            <subTypes>
+              <subTypeId ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberDetail_OutputMessage" />
+              <subTypeId ntId="default-fault" />
+            </subTypes>
+            <typeSelector />
+            <superTypes>
+              <nodeType ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberDetail_OutputMessage">
+                <superTypeId ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberDetail_OutputMessage" />
+                <superTypeId ntId="Output:xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:getMemberDetail/ns0:IMemberAccounts_getMemberDetail_InputMessage/)" />
+                <superTypeId ntId="common-output" />
+              </nodeType>
+              <nodeType ntId="default-fault">
+                <superTypeId ntId="default-fault" />
+                <superTypeId ntId="Output:xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:getMemberDetail/ns0:IMemberAccounts_getMemberDetail_InputMessage/)" />
+                <superTypeId ntId="common-output" />
+              </nodeType>
+            </superTypes>
+            <subTypeDisplayNames>
+              <nodeType ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberDetail_OutputMessage" displayName="IMemberAccounts_getMemberDetail_OutputMessage" />
+              <nodeType ntId="default-fault" displayName="Fault" />
+            </subTypeDisplayNames>
+          </activityRootSchemaType>
+        </activityRoots>
+        <arrayEnvelopeXPointer values="44" />
+      </serviceCallSchema>
+    </serviceOperation>
+    <serviceOperation id="5a638fe6-cea9-4a64-a262-bd8c3727cd0b" operationId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:getMemberPlan/ns0:IMemberAccounts_getMemberPlan_InputMessage/)">
+      <activities>
+        <requestActivity id="3" name="Request" serviceDescriptionId="1549e34f-8779-4e12-82c6-fe0701595785" operationId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:getMemberPlan/ns0:IMemberAccounts_getMemberPlan_InputMessage/)" />
+        <responseActivity id="4" name="Response" serviceDescriptionId="1549e34f-8779-4e12-82c6-fe0701595785" operationId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:getMemberPlan/ns0:IMemberAccounts_getMemberPlan_InputMessage/)" />
+      </activities>
+      <serviceCallSchema operationId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:getMemberPlan/ns0:IMemberAccounts_getMemberPlan_InputMessage/)" operationName="getMemberPlan" timeStamp="638264945569731228">
+        <xpointerTree r="1" m="30">
+          <i v="1" c="2,3" />
+          <i v="2" p="1" c="11,12,13" />
+          <i v="3" p="1" c="4,5,6,7,8,9,10" />
+          <i v="4" p="1,3" />
+          <i v="5" p="1,3" c="14" />
+          <i v="6" p="1,3" c="15" />
+          <i v="7" p="1,3" />
+          <i v="8" p="1,3" c="19,20" />
+          <i v="9" p="1,3" />
+          <i v="10" p="1,3" c="21,22" />
+          <i v="11" p="1,2" />
+          <i v="12" p="1,2" c="24,25,26,27,28" />
+          <i v="13" p="1,2" c="30" />
+          <i v="14" p="1,3,5" c="29" />
+          <i v="15" p="1,3,6" c="16,17,18" />
+          <i v="16" p="1,3,6,15" />
+          <i v="17" p="1,3,6,15" />
+          <i v="18" p="1,3,6,15" />
+          <i v="19" p="1,3,8" />
+          <i v="20" p="1,3,8" />
+          <i v="21" p="1,3,10" />
+          <i v="22" p="1,3,10" c="23" />
+          <i v="23" p="1,3,10,22" />
+          <i v="24" p="1,2,12" />
+          <i v="25" p="1,2,12" />
+          <i v="26" p="1,2,12" />
+          <i v="27" p="1,2,12" />
+          <i v="28" p="1,2,12" />
+          <i v="29" p="1,3,5,14" />
+          <i v="30" p="1,2,13" />
+        </xpointerTree>
+        <arrayPointerTree r="1" m="2">
+          <i v="1" c="2" />
+          <i v="2" p="1" />
+        </arrayPointerTree>
+        <entityIdCache nfIndex="1">
+          <item id="1549e34f-8779-4e12-82c6-fe0701595785" index="0" refCount="2" />
+        </entityIdCache>
+        <serviceTypes>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:getMemberPlan/type::*)" dname="Type of element 'getMemberPlan'">
+            <children>
+              <ed ndId="memberId" dname="memberId" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:getMemberPlan/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:long)" name="memberId" namespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:getMemberPlanResponse/type::*)" dname="Type of element 'getMemberPlanResponse'">
+            <children>
+              <ed ndId="getMemberPlanResult" dname="getMemberPlanResult" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:getMemberPlanResponse/type::*)" stSdId="0" stNtId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Plan)" name="getMemberPlanResult" namespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" dname="Type of element 'HTTPInputParameters'">
+            <children>
+              <ed ndId="ClientAddress" dname="ClientAddress" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="ClientAddress" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="Parameters" dname="Parameters" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Parameters/type::*)" name="Parameters" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="UnnamedParameters" dname="UnnamedParameters" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:UnnamedParameters/type::*)" name="UnnamedParameters" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="Headers" dname="Headers" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Headers/type::*)" name="Headers" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="Transport" dname="Transport" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Transport/type::*)" name="Transport" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Headers/type::*)" dname="Type of element 'Headers'">
+            <children />
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Parameters/type::*)" dname="Type of element 'Parameters'">
+            <children />
+          </complexSchemaType>
+          <enumerationSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Transport/type::*)" dname="Type of element 'Transport'">
+            <typeFamily>String</typeFamily>
+            <xmlTypeCode>String</xmlTypeCode>
+            <facets>
+              <enumeration>
+                <value>HTTP</value>
+                <value>HTTPS</value>
+              </enumeration>
+            </facets>
+            <value>HTTP</value>
+            <value>HTTPS</value>
+          </enumerationSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:UnnamedParameters/type::*)" dname="Type of element 'UnnamedParameters'">
+            <children />
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*)" dname="Type of element 'HTTPOutputParameters'">
+            <children>
+              <ed ndId="Headers" dname="Headers" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*/groupBase::*/ns0:Headers/type::*)" name="Headers" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*/groupBase::*/ns0:Headers/type::*)" dname="Type of element 'Headers'">
+            <children>
+              <ed ndId="Date" dname="Date" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*/groupBase::*/ns0:Headers/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="Date" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultstring/type::*)" dname="Type of element 'faultstring'">
+            <children>
+              <ed ndId="@lang" dname="lang" defKind="Attribute" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultstring/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/XML/1998/namespace)xpath(attribute::ns0:lang/type::*)/lone" name="lang" namespace="http://www.w3.org/XML/1998/namespace" editable="false" />
+              <ed ndId="$" dname="content" defKind="Content" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultstring/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)/lone" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Plan)" dname="Plan">
+            <children>
+              <ed ndId="approvalLimit" dname="approvalLimit" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Plan)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:float)" name="approvalLimit" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="id" dname="id" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Plan)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:long)" name="id" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="name" dname="name" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Plan)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="name" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail)" dname="detail">
+            <children>
+              <ed ndId="@*" dname="any attribute" defKind="Attribute" sdId="0" ntId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:anyType)" editable="false" />
+              <aed ndId="*" dname="any[]" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail)" stSdId="0" stNtId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail/groupBase::*/*/artificial::*)" editable="false" min="0" max="2147483647" />
+            </children>
+          </complexSchemaType>
+          <arrayEnvelopeSchemaType sdId="0" ntId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail/groupBase::*/*/artificial::*)" dname="any[]">
+            <ed ndId=":" dname="item" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail/groupBase::*/*/artificial::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:anyType)" editable="false" />
+          </arrayEnvelopeSchemaType>
+          <anySchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:anyType)" dname="anyType" />
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:anyURI)" dname="anyURI">
+            <typeFamily>String</typeFamily>
+            <xmlTypeCode>AnyUri</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:float)" dname="float">
+            <typeFamily>Float</typeFamily>
+            <xmlTypeCode>Float</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:long)" dname="long">
+            <typeFamily>Integer</typeFamily>
+            <xmlTypeCode>Long</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:QName)" dname="QName">
+            <typeFamily>QName</typeFamily>
+            <xmlTypeCode>QName</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" dname="string">
+            <typeFamily>String</typeFamily>
+            <xmlTypeCode>String</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)/lone" dname="string">
+            <typeFamily>String</typeFamily>
+            <xmlTypeCode>String</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/XML/1998/namespace)xpath(attribute::ns0:lang/type::*)/lone" dname="Type of attribute 'lang'">
+            <typeFamily>String</typeFamily>
+            <xmlTypeCode>None</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+        </serviceTypes>
+        <activityRoots>
+          <activityRootSchemaType activityId="3" activityInOut="Output" xPointer="2" sdId="0" ntId="Input:xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:getMemberPlan/ns0:IMemberAccounts_getMemberPlan_InputMessage/)" dname="OperationInputBase">
+            <childrenOfSubtypes>
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters)" dname="HTTPInputParameters" defKind="Element" sdId="0" ntId="common-input" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" name="HTTPInputParameters" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:getMemberPlan)" dname="getMemberPlan" defKind="Element" sdId="0" ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_InputMessage" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:getMemberPlan/type::*)" name="getMemberPlan" namespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" editable="false" />
+            </childrenOfSubtypes>
+            <subTypes>
+              <subTypeId ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_InputMessage" />
+            </subTypes>
+            <typeSelector />
+            <superTypes>
+              <nodeType ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_InputMessage">
+                <superTypeId ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_InputMessage" />
+                <superTypeId ntId="Input:xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:getMemberPlan/ns0:IMemberAccounts_getMemberPlan_InputMessage/)" />
+                <superTypeId ntId="common-input" />
+              </nodeType>
+            </superTypes>
+            <subTypeDisplayNames>
+              <nodeType ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_InputMessage" displayName="IMemberAccounts_getMemberPlan_InputMessage" />
+            </subTypeDisplayNames>
+          </activityRootSchemaType>
+          <activityRootSchemaType activityId="4" activityInOut="Input" xPointer="3" sdId="0" ntId="Output:xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:getMemberPlan/ns0:IMemberAccounts_getMemberPlan_InputMessage/)" dname="OperationOutputBase">
+            <childrenOfSubtypes>
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters)" dname="HTTPOutputParameters" defKind="Element" sdId="0" ntId="common-output" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*)" name="HTTPOutputParameters" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:getMemberPlanResponse)" dname="getMemberPlanResponse" defKind="Element" sdId="0" ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_OutputMessage" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:getMemberPlanResponse/type::*)" name="getMemberPlanResponse" namespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" editable="false" />
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultcode)" dname="faultcode" defKind="Element" sdId="0" ntId="default-fault" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:QName)" name="faultcode" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1" editable="false" />
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultstring)" dname="faultstring" defKind="Element" sdId="0" ntId="default-fault" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultstring/type::*)" name="faultstring" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1" editable="false" />
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultactor)" dname="faultactor" defKind="Element" sdId="0" ntId="default-fault" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:anyURI)" name="faultactor" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1" editable="false" />
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:detail)" dname="detail" defKind="Element" sdId="0" ntId="default-fault" stSdId="0" stNtId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail)" name="detail" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1" editable="false" />
+            </childrenOfSubtypes>
+            <subTypes>
+              <subTypeId ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_OutputMessage" />
+              <subTypeId ntId="default-fault" />
+            </subTypes>
+            <typeSelector />
+            <superTypes>
+              <nodeType ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_OutputMessage">
+                <superTypeId ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_OutputMessage" />
+                <superTypeId ntId="Output:xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:getMemberPlan/ns0:IMemberAccounts_getMemberPlan_InputMessage/)" />
+                <superTypeId ntId="common-output" />
+              </nodeType>
+              <nodeType ntId="default-fault">
+                <superTypeId ntId="default-fault" />
+                <superTypeId ntId="Output:xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:getMemberPlan/ns0:IMemberAccounts_getMemberPlan_InputMessage/)" />
+                <superTypeId ntId="common-output" />
+              </nodeType>
+            </superTypes>
+            <subTypeDisplayNames>
+              <nodeType ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_OutputMessage" displayName="IMemberAccounts_getMemberPlan_OutputMessage" />
+              <nodeType ntId="default-fault" displayName="Fault" />
+            </subTypeDisplayNames>
+          </activityRootSchemaType>
+        </activityRoots>
+        <arrayEnvelopeXPointer values="22" />
+      </serviceCallSchema>
+    </serviceOperation>
+    <serviceOperation id="1ea6cc8d-97b1-437d-a87f-baab8b1a8c7c" operationId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:memberSearch/ns0:IMemberAccounts_memberSearch_InputMessage/)">
+      <activities>
+        <requestActivity id="1" name="Request" serviceDescriptionId="1549e34f-8779-4e12-82c6-fe0701595785" operationId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:memberSearch/ns0:IMemberAccounts_memberSearch_InputMessage/)" />
+        <responseActivity id="2" name="Response" serviceDescriptionId="1549e34f-8779-4e12-82c6-fe0701595785" operationId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:memberSearch/ns0:IMemberAccounts_memberSearch_InputMessage/)" />
+      </activities>
+      <serviceCallSchema operationId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:memberSearch/ns0:IMemberAccounts_memberSearch_InputMessage/)" operationName="memberSearch" timeStamp="638264945569918481">
+        <xpointerTree r="1" m="37">
+          <i v="1" c="2,3" />
+          <i v="2" p="1" c="11,12,13" />
+          <i v="3" p="1" c="4,5,6,7,8,9,10" />
+          <i v="4" p="1,3" />
+          <i v="5" p="1,3" c="14" />
+          <i v="6" p="1,3" c="15" />
+          <i v="7" p="1,3" />
+          <i v="8" p="1,3" c="21,22" />
+          <i v="9" p="1,3" />
+          <i v="10" p="1,3" c="23,24" />
+          <i v="11" p="1,2" />
+          <i v="12" p="1,2" c="26,27,28,29,30" />
+          <i v="13" p="1,2" c="31,32,33,34" />
+          <i v="14" p="1,3,5" c="37" />
+          <i v="15" p="1,3,6" c="16" />
+          <i v="16" p="1,3,6,15" c="17" />
+          <i v="17" p="1,3,6,15,16" c="18,19,20" />
+          <i v="18" p="1,3,6,15,16,17" />
+          <i v="19" p="1,3,6,15,16,17" />
+          <i v="20" p="1,3,6,15,16,17" />
+          <i v="21" p="1,3,8" />
+          <i v="22" p="1,3,8" />
+          <i v="23" p="1,3,10" />
+          <i v="24" p="1,3,10" c="25" />
+          <i v="25" p="1,3,10,24" />
+          <i v="26" p="1,2,12" />
+          <i v="27" p="1,2,12" />
+          <i v="28" p="1,2,12" />
+          <i v="29" p="1,2,12" />
+          <i v="30" p="1,2,12" />
+          <i v="31" p="1,2,13" c="35,36" />
+          <i v="32" p="1,2,13" />
+          <i v="33" p="1,2,13" />
+          <i v="34" p="1,2,13" />
+          <i v="35" p="1,2,13,31" />
+          <i v="36" p="1,2,13,31" />
+          <i v="37" p="1,3,5,14" />
+        </xpointerTree>
+        <arrayPointerTree r="1" m="3">
+          <i v="1" c="2,3" />
+          <i v="2" p="1" />
+          <i v="3" p="1" />
+        </arrayPointerTree>
+        <entityIdCache nfIndex="1">
+          <item id="1549e34f-8779-4e12-82c6-fe0701595785" index="0" refCount="2" />
+        </entityIdCache>
+        <serviceTypes>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:memberSearch/type::*)" dname="Type of element 'memberSearch'">
+            <children>
+              <ed ndId="name" dname="name" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:memberSearch/type::*)" stSdId="0" stNtId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:ShortName)" name="name" namespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" editable="false" />
+              <ed ndId="dateOfBirth" dname="dateOfBirth" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:memberSearch/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:dateTime)" name="dateOfBirth" namespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" editable="false" />
+              <ed ndId="socialSecurityNumber" dname="socialSecurityNumber" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:memberSearch/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="socialSecurityNumber" namespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" editable="false" />
+              <ed ndId="zipCode" dname="zipCode" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:memberSearch/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="zipCode" namespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:memberSearchResponse/type::*)" dname="Type of element 'memberSearchResponse'">
+            <children>
+              <ed ndId="memberSearchResult" dname="memberSearchResult" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:memberSearchResponse/type::*)" stSdId="0" stNtId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:ArrayOfMember)" name="memberSearchResult" namespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" dname="Type of element 'HTTPInputParameters'">
+            <children>
+              <ed ndId="ClientAddress" dname="ClientAddress" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="ClientAddress" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="Parameters" dname="Parameters" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Parameters/type::*)" name="Parameters" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="UnnamedParameters" dname="UnnamedParameters" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:UnnamedParameters/type::*)" name="UnnamedParameters" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="Headers" dname="Headers" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Headers/type::*)" name="Headers" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="Transport" dname="Transport" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Transport/type::*)" name="Transport" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Headers/type::*)" dname="Type of element 'Headers'">
+            <children />
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Parameters/type::*)" dname="Type of element 'Parameters'">
+            <children />
+          </complexSchemaType>
+          <enumerationSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Transport/type::*)" dname="Type of element 'Transport'">
+            <typeFamily>String</typeFamily>
+            <xmlTypeCode>String</xmlTypeCode>
+            <facets>
+              <enumeration>
+                <value>HTTP</value>
+                <value>HTTPS</value>
+              </enumeration>
+            </facets>
+            <value>HTTP</value>
+            <value>HTTPS</value>
+          </enumerationSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:UnnamedParameters/type::*)" dname="Type of element 'UnnamedParameters'">
+            <children />
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*)" dname="Type of element 'HTTPOutputParameters'">
+            <children>
+              <ed ndId="Headers" dname="Headers" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*/groupBase::*/ns0:Headers/type::*)" name="Headers" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*/groupBase::*/ns0:Headers/type::*)" dname="Type of element 'Headers'">
+            <children>
+              <ed ndId="Date" dname="Date" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*/groupBase::*/ns0:Headers/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="Date" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultstring/type::*)" dname="Type of element 'faultstring'">
+            <children>
+              <ed ndId="@lang" dname="lang" defKind="Attribute" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultstring/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/XML/1998/namespace)xpath(attribute::ns0:lang/type::*)/lone" name="lang" namespace="http://www.w3.org/XML/1998/namespace" editable="false" />
+              <ed ndId="$" dname="content" defKind="Content" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultstring/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)/lone" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:ArrayOfMember)" dname="ArrayOfMember">
+            <children>
+              <aed ndId="Member" dname="Member[]" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:ArrayOfMember)" stSdId="0" stNtId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:ArrayOfMember/groupBase::*/ns0:Member/artificial::*)" editable="false" min="0" max="2147483647" />
+            </children>
+          </complexSchemaType>
+          <arrayEnvelopeSchemaType sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:ArrayOfMember/groupBase::*/ns0:Member/artificial::*)" dname="Member[]">
+            <ed ndId=":" dname="item" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:ArrayOfMember/groupBase::*/ns0:Member/artificial::*)" stSdId="0" stNtId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Member)" name="Member" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+          </arrayEnvelopeSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Member)" dname="Member">
+            <children>
+              <ed ndId="householdId" dname="householdId" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Member)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:long)" name="householdId" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="memberId" dname="memberId" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Member)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:long)" name="memberId" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="socialSecurityNumber" dname="socialSecurityNumber" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:Member)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="socialSecurityNumber" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:ShortName)" dname="ShortName">
+            <children>
+              <ed ndId="firstName" dname="firstName" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:ShortName)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="firstName" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+              <ed ndId="lastName" dname="lastName" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo)xpath(type::ns0:ShortName)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="lastName" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail)" dname="detail">
+            <children>
+              <ed ndId="@*" dname="any attribute" defKind="Attribute" sdId="0" ntId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:anyType)" editable="false" />
+              <aed ndId="*" dname="any[]" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail)" stSdId="0" stNtId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail/groupBase::*/*/artificial::*)" editable="false" min="0" max="2147483647" />
+            </children>
+          </complexSchemaType>
+          <arrayEnvelopeSchemaType sdId="0" ntId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail/groupBase::*/*/artificial::*)" dname="any[]">
+            <ed ndId=":" dname="item" defKind="Element" sdId="0" ntId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail/groupBase::*/*/artificial::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:anyType)" editable="false" />
+          </arrayEnvelopeSchemaType>
+          <anySchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:anyType)" dname="anyType" />
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:anyURI)" dname="anyURI">
+            <typeFamily>String</typeFamily>
+            <xmlTypeCode>AnyUri</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:dateTime)" dname="dateTime">
+            <typeFamily>DateTime</typeFamily>
+            <xmlTypeCode>DateTime</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:long)" dname="long">
+            <typeFamily>Integer</typeFamily>
+            <xmlTypeCode>Long</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:QName)" dname="QName">
+            <typeFamily>QName</typeFamily>
+            <xmlTypeCode>QName</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" dname="string">
+            <typeFamily>String</typeFamily>
+            <xmlTypeCode>String</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)/lone" dname="string">
+            <typeFamily>String</typeFamily>
+            <xmlTypeCode>String</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/XML/1998/namespace)xpath(attribute::ns0:lang/type::*)/lone" dname="Type of attribute 'lang'">
+            <typeFamily>String</typeFamily>
+            <xmlTypeCode>None</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+        </serviceTypes>
+        <activityRoots>
+          <activityRootSchemaType activityId="1" activityInOut="Output" xPointer="2" sdId="0" ntId="Input:xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:memberSearch/ns0:IMemberAccounts_memberSearch_InputMessage/)" dname="OperationInputBase">
+            <childrenOfSubtypes>
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters)" dname="HTTPInputParameters" defKind="Element" sdId="0" ntId="common-input" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" name="HTTPInputParameters" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:memberSearch)" dname="memberSearch" defKind="Element" sdId="0" ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_InputMessage" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:memberSearch/type::*)" name="memberSearch" namespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" editable="false" />
+            </childrenOfSubtypes>
+            <subTypes>
+              <subTypeId ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_InputMessage" />
+            </subTypes>
+            <typeSelector />
+            <superTypes>
+              <nodeType ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_InputMessage">
+                <superTypeId ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_InputMessage" />
+                <superTypeId ntId="Input:xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:memberSearch/ns0:IMemberAccounts_memberSearch_InputMessage/)" />
+                <superTypeId ntId="common-input" />
+              </nodeType>
+            </superTypes>
+            <subTypeDisplayNames>
+              <nodeType ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_InputMessage" displayName="IMemberAccounts_memberSearch_InputMessage" />
+            </subTypeDisplayNames>
+          </activityRootSchemaType>
+          <activityRootSchemaType activityId="2" activityInOut="Input" xPointer="3" sdId="0" ntId="Output:xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:memberSearch/ns0:IMemberAccounts_memberSearch_InputMessage/)" dname="OperationOutputBase">
+            <childrenOfSubtypes>
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters)" dname="HTTPOutputParameters" defKind="Element" sdId="0" ntId="common-output" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*)" name="HTTPOutputParameters" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:memberSearchResponse)" dname="memberSearchResponse" defKind="Element" sdId="0" ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_OutputMessage" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)xpath(ns0:memberSearchResponse/type::*)" name="memberSearchResponse" namespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" editable="false" />
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultcode)" dname="faultcode" defKind="Element" sdId="0" ntId="default-fault" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:QName)" name="faultcode" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1" editable="false" />
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultstring)" dname="faultstring" defKind="Element" sdId="0" ntId="default-fault" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultstring/type::*)" name="faultstring" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1" editable="false" />
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:faultactor)" dname="faultactor" defKind="Element" sdId="0" ntId="default-fault" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:anyURI)" name="faultactor" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1" editable="false" />
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1)xpath(ns0:detail)" dname="detail" defKind="Element" sdId="0" ntId="default-fault" stSdId="0" stNtId="xmlns(ns0=http://schemas.xmlsoap.org/soap/envelope/)xpath(type::ns0:detail)" name="detail" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/SOAP/1.1" editable="false" />
+            </childrenOfSubtypes>
+            <subTypes>
+              <subTypeId ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_OutputMessage" />
+              <subTypeId ntId="default-fault" />
+            </subTypes>
+            <typeSelector />
+            <superTypes>
+              <nodeType ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_OutputMessage">
+                <superTypeId ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_OutputMessage" />
+                <superTypeId ntId="Output:xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:memberSearch/ns0:IMemberAccounts_memberSearch_InputMessage/)" />
+                <superTypeId ntId="common-output" />
+              </nodeType>
+              <nodeType ntId="default-fault">
+                <superTypeId ntId="default-fault" />
+                <superTypeId ntId="Output:xmlns(ns0=http://hp.com/SOAQ/ServiceSimulation/2010/demo/01)operation(ns0:memberSearch/ns0:IMemberAccounts_memberSearch_InputMessage/)" />
+                <superTypeId ntId="common-output" />
+              </nodeType>
+            </superTypes>
+            <subTypeDisplayNames>
+              <nodeType ntId="{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_OutputMessage" displayName="IMemberAccounts_memberSearch_OutputMessage" />
+              <nodeType ntId="default-fault" displayName="Fault" />
+            </subTypeDisplayNames>
+          </activityRootSchemaType>
+        </activityRoots>
+        <arrayEnvelopeXPointer values="16,24" />
+      </serviceCallSchema>
+    </serviceOperation>
+  </serviceOperations>
+  <rules>
+    <learned id="36217173-e57e-4a3a-be94-963ff8aa7403" name="Learned Data" description="All of the data collected during the Learning phase" />
+    <default id="1ec2ef38-e47d-41d2-80f7-5f496e9289cd" name="Default Response" description="The default response when no matches were found" />
+  </rules>
+  <serviceOperationRules>
+    <serviceOperationDataRule id="7b5477a6-f3d7-4680-9f60-1125080bb8cb" name="Learned Data" description="All of the data collected during the Learning phase" serviceOperationId="1e577116-90d8-46cd-9b69-9b0531b91366" ruleId="36217173-e57e-4a3a-be94-963ff8aa7403" inScope="true" responseCountFn="Set" responseIndexFn="Is" forwardToRealServiceFn="Set" rowsUsingRealResponse="0">
+      <allActivities />
+      <datasetIds>
+        <datasetId>0bd5a9fd-5912-4f82-9247-3d3adfe19766</datasetId>
+      </datasetIds>
+      <nodeFunctions>
+        <ignoreAction targetNodeXPointer="2" />
+        <ignoreCondition targetNodeXPointer="3" />
+        <setAction targetNodeXPointer="3" />
+        <isCondition targetNodeXPointer="11" />
+        <isCondition targetNodeXPointer="13" />
+        <ignoreCondition targetNodeXPointer="46" />
+        <isCondition targetNodeXPointer="47" />
+        <isCondition targetNodeXPointer="48" />
+        <isCondition targetNodeXPointer="49" />
+        <isCondition targetNodeXPointer="50" />
+      </nodeFunctions>
+      <serviceCalls>
+        <serviceCall id="cf6dad9e-f6c0-49ca-92e9-6b06041c2ec8" simHc="1497935" anaHc="386512670" />
+        <serviceCall id="15c0b3fa-cd15-4621-9602-f7436a457e10" simHc="1497935" anaHc="301762101" />
+        <serviceCall id="22a7deb0-cedb-4809-be5b-2722c240c411" simHc="1497932" anaHc="1793980006" />
+        <serviceCall id="518655aa-b698-473c-bee6-7227520547e4" simHc="1497932" anaHc="1806221724" />
+        <serviceCall id="72459fea-f16a-447e-a05f-2fe376035e1f" simHc="1497932" anaHc="-1196299289" />
+        <serviceCall id="09e5d406-3adc-45cc-895f-609849003598" simHc="1497933" anaHc="-1359513371" />
+        <serviceCall id="088826a8-022a-47fa-b392-81606d42106f" simHc="1497933" anaHc="-1375452828" />
+        <serviceCall id="1894a7ca-3ea1-4a5a-b224-cb4a899380c6" simHc="1497933" anaHc="-1402193768" />
+      </serviceCalls>
+    </serviceOperationDataRule>
+    <serviceOperationDataRule id="04172e4f-b5e4-4e5b-a644-4196b110ad90" name="Default Response" description="The default response when no matches were found" serviceOperationId="1e577116-90d8-46cd-9b69-9b0531b91366" ruleId="1ec2ef38-e47d-41d2-80f7-5f496e9289cd" inScope="true" responseCountFn="Set" responseIndexFn="Ignore" forwardToRealServiceFn="Set" rowsUsingRealResponse="0">
+      <allActivities />
+      <datasetIds>
+        <datasetId>4cee74a5-a3cf-4e0a-adf1-a20d2cb54f9a</datasetId>
+      </datasetIds>
+      <nodeFunctions>
+        <ignoreCondition targetNodeXPointer="2" />
+        <ignoreAction targetNodeXPointer="2" />
+        <isCondition targetNodeXPointer="4" />
+        <ignoreAction targetNodeXPointer="4" />
+        <ignoreCondition targetNodeXPointer="5" />
+        <setAction targetNodeXPointer="5" />
+        <ignoreCondition targetNodeXPointer="6" />
+        <setAction targetNodeXPointer="6" />
+        <ignoreCondition targetNodeXPointer="7" />
+        <setAction targetNodeXPointer="7" />
+        <ignoreCondition targetNodeXPointer="8" />
+        <setAction targetNodeXPointer="8" />
+        <ignoreCondition targetNodeXPointer="9" />
+        <setAction targetNodeXPointer="9" />
+        <ignoreCondition targetNodeXPointer="10" />
+        <setAction targetNodeXPointer="10" />
+      </nodeFunctions>
+      <serviceCalls>
+        <serviceCall id="04714888-e49f-41e3-8680-6f51f598c0e1" simHc="0" anaHc="1834929615" />
+        <serviceCall id="0304b344-45f5-4f0b-bb87-885da88eab48" simHc="0" anaHc="-1141307109" />
+      </serviceCalls>
+    </serviceOperationDataRule>
+    <serviceOperationDataRule id="0cc911d9-7884-4f89-b6e3-d236b135aa30" name="Learned Data" description="All of the data collected during the Learning phase" serviceOperationId="5a638fe6-cea9-4a64-a262-bd8c3727cd0b" ruleId="36217173-e57e-4a3a-be94-963ff8aa7403" inScope="true" responseCountFn="Set" responseIndexFn="Is" forwardToRealServiceFn="Set" rowsUsingRealResponse="0">
+      <allActivities />
+      <datasetIds>
+        <datasetId>a7e9df22-6dec-4603-9c7f-f7e7a0ad32ac</datasetId>
+      </datasetIds>
+      <nodeFunctions>
+        <ignoreAction targetNodeXPointer="2" />
+        <ignoreCondition targetNodeXPointer="3" />
+        <setAction targetNodeXPointer="3" />
+        <isCondition targetNodeXPointer="11" />
+        <isCondition targetNodeXPointer="13" />
+        <ignoreCondition targetNodeXPointer="24" />
+        <isCondition targetNodeXPointer="25" />
+        <isCondition targetNodeXPointer="26" />
+        <isCondition targetNodeXPointer="27" />
+        <isCondition targetNodeXPointer="28" />
+      </nodeFunctions>
+      <serviceCalls>
+        <serviceCall id="727eb066-b9b8-4c86-8b55-a0580410a426" simHc="1497935" anaHc="990190045" />
+        <serviceCall id="23eb553f-9f21-4252-b9bb-b48f9ca8d6e8" simHc="1497935" anaHc="905701620" />
+        <serviceCall id="5e5d2cf9-4329-435d-b603-6f19c8e66bca" simHc="1497932" anaHc="979830528" />
+        <serviceCall id="10ac6ed9-0f7f-4002-8121-6cd1fa6f18f4" simHc="1497932" anaHc="992088766" />
+        <serviceCall id="9c40323a-8729-4f48-9274-7219c829a423" simHc="1497932" anaHc="1212884097" />
+        <serviceCall id="19602bf3-619f-4289-940b-f0e6192dc718" simHc="1497933" anaHc="1302515971" />
+        <serviceCall id="0bc41cc1-c1e0-4eee-9ff1-be3023d302bf" simHc="1497933" anaHc="1303624066" />
+        <serviceCall id="416d7b59-a81c-435f-92b2-6d066a6ee09e" simHc="1497933" anaHc="1394315686" />
+      </serviceCalls>
+    </serviceOperationDataRule>
+    <serviceOperationDataRule id="8ede34a5-4970-4d87-b986-38373dd2fe95" name="Default Response" description="The default response when no matches were found" serviceOperationId="5a638fe6-cea9-4a64-a262-bd8c3727cd0b" ruleId="1ec2ef38-e47d-41d2-80f7-5f496e9289cd" inScope="true" responseCountFn="Set" responseIndexFn="Ignore" forwardToRealServiceFn="Set" rowsUsingRealResponse="0">
+      <allActivities />
+      <datasetIds>
+        <datasetId>5418602e-ee21-40d3-8e3e-644307d68a68</datasetId>
+      </datasetIds>
+      <nodeFunctions>
+        <ignoreCondition targetNodeXPointer="2" />
+        <ignoreAction targetNodeXPointer="2" />
+        <isCondition targetNodeXPointer="4" />
+        <ignoreAction targetNodeXPointer="4" />
+        <ignoreCondition targetNodeXPointer="5" />
+        <setAction targetNodeXPointer="5" />
+        <ignoreCondition targetNodeXPointer="6" />
+        <setAction targetNodeXPointer="6" />
+        <ignoreCondition targetNodeXPointer="7" />
+        <setAction targetNodeXPointer="7" />
+        <ignoreCondition targetNodeXPointer="8" />
+        <setAction targetNodeXPointer="8" />
+        <ignoreCondition targetNodeXPointer="9" />
+        <setAction targetNodeXPointer="9" />
+        <ignoreCondition targetNodeXPointer="10" />
+        <setAction targetNodeXPointer="10" />
+      </nodeFunctions>
+      <serviceCalls>
+        <serviceCall id="6bf71bdc-4724-4207-8485-b9dd3a4bf0cb" simHc="0" anaHc="1834929615" />
+        <serviceCall id="8fbe0620-074f-4215-b3af-e785218a2674" simHc="0" anaHc="371950599" />
+      </serviceCalls>
+    </serviceOperationDataRule>
+    <serviceOperationDataRule id="89481326-73b6-4fce-ae8b-293294445c37" name="Learned Data" description="All of the data collected during the Learning phase" serviceOperationId="1ea6cc8d-97b1-437d-a87f-baab8b1a8c7c" ruleId="36217173-e57e-4a3a-be94-963ff8aa7403" inScope="true" responseCountFn="Set" responseIndexFn="Is" forwardToRealServiceFn="Set" rowsUsingRealResponse="0">
+      <allActivities />
+      <datasetIds>
+        <datasetId>a1f8a135-274c-4cfc-9834-c4148e923d3f</datasetId>
+      </datasetIds>
+      <nodeFunctions>
+        <ignoreAction targetNodeXPointer="2" />
+        <ignoreCondition targetNodeXPointer="3" />
+        <setAction targetNodeXPointer="3" />
+        <isCondition targetNodeXPointer="11" />
+        <isCondition targetNodeXPointer="13" />
+        <ignoreCondition targetNodeXPointer="26" />
+        <isCondition targetNodeXPointer="27" />
+        <isCondition targetNodeXPointer="28" />
+        <isCondition targetNodeXPointer="29" />
+        <isCondition targetNodeXPointer="30" />
+      </nodeFunctions>
+      <serviceCalls>
+        <serviceCall id="a85d89d4-ea34-48f8-be3b-c8ebdf8c3ff8" simHc="875717272" anaHc="1879069274" />
+        <serviceCall id="5cdc29da-266c-4f02-a789-8662252c27d9" simHc="1211464753" anaHc="2059681542" />
+        <serviceCall id="19f943fa-aec7-4e5f-a012-275c7d963c5f" simHc="-1185812454" anaHc="140507244" />
+        <serviceCall id="45fa5a68-45e5-4fef-936b-499ca8b736bd" simHc="1192799650" anaHc="-721379722" />
+        <serviceCall id="42bf21bc-45c6-4efe-9711-06ebdd05b6a4" simHc="-835514198" anaHc="-417625888" />
+        <serviceCall id="df18527f-5fb3-409f-aa8b-b9df7ce47f2b" simHc="-1181855237" anaHc="-523013129" />
+        <serviceCall id="5a509b7e-f538-4cf9-a746-4c83d9ab65bc" simHc="-1181855237" anaHc="-1241884164" />
+        <serviceCall id="613371ea-8406-4f32-bad0-4aae0df778e1" simHc="-1639741706" anaHc="1237653852" />
+        <serviceCall id="0e5abab5-8a80-45da-93fd-9dad7a61ae95" simHc="1822422741" anaHc="1400894194" />
+        <serviceCall id="93cbcf1a-41e2-4086-a6c1-5a4659285f66" simHc="-1241691252" anaHc="282606235" />
+      </serviceCalls>
+    </serviceOperationDataRule>
+    <serviceOperationDataRule id="5b7cb8ac-80ff-411b-af1d-b4527a04b3d0" name="Default Response" description="The default response when no matches were found" serviceOperationId="1ea6cc8d-97b1-437d-a87f-baab8b1a8c7c" ruleId="1ec2ef38-e47d-41d2-80f7-5f496e9289cd" inScope="true" responseCountFn="Set" responseIndexFn="Ignore" forwardToRealServiceFn="Set" rowsUsingRealResponse="0">
+      <allActivities />
+      <datasetIds>
+        <datasetId>5bfa3ac7-e816-413e-aafc-942235560cee</datasetId>
+      </datasetIds>
+      <nodeFunctions>
+        <ignoreCondition targetNodeXPointer="2" />
+        <ignoreAction targetNodeXPointer="2" />
+        <isCondition targetNodeXPointer="4" />
+        <ignoreAction targetNodeXPointer="4" />
+        <ignoreCondition targetNodeXPointer="5" />
+        <setAction targetNodeXPointer="5" />
+        <ignoreCondition targetNodeXPointer="6" />
+        <setAction targetNodeXPointer="6" />
+        <ignoreCondition targetNodeXPointer="7" />
+        <setAction targetNodeXPointer="7" />
+        <ignoreCondition targetNodeXPointer="8" />
+        <setAction targetNodeXPointer="8" />
+        <ignoreCondition targetNodeXPointer="9" />
+        <setAction targetNodeXPointer="9" />
+        <ignoreCondition targetNodeXPointer="10" />
+        <setAction targetNodeXPointer="10" />
+      </nodeFunctions>
+      <serviceCalls>
+        <serviceCall id="fcd1aeea-5614-488d-a257-7cf715287b70" simHc="0" anaHc="1834929615" />
+        <serviceCall id="4fe76f54-ad8d-4d8c-9bd5-e104fa0311ad" simHc="0" anaHc="-1086387394" />
+      </serviceCalls>
+    </serviceOperationDataRule>
+  </serviceOperationRules>
+  <tracks>
+    <tr id="45f19ca0-4e85-448c-897d-2094b86cb9a9" name="Track 2023-08-01" ext="false">
+      <tp scId="a85d89d4-ea34-48f8-be3b-c8ebdf8c3ff8" sorId="89481326-73b6-4fce-ae8b-293294445c37" />
+      <tp scId="727eb066-b9b8-4c86-8b55-a0580410a426" sorId="0cc911d9-7884-4f89-b6e3-d236b135aa30" />
+      <tp scId="cf6dad9e-f6c0-49ca-92e9-6b06041c2ec8" sorId="7b5477a6-f3d7-4680-9f60-1125080bb8cb" />
+      <tp scId="5cdc29da-266c-4f02-a789-8662252c27d9" sorId="89481326-73b6-4fce-ae8b-293294445c37" />
+      <tp scId="23eb553f-9f21-4252-b9bb-b48f9ca8d6e8" sorId="0cc911d9-7884-4f89-b6e3-d236b135aa30" />
+      <tp scId="15c0b3fa-cd15-4621-9602-f7436a457e10" sorId="7b5477a6-f3d7-4680-9f60-1125080bb8cb" />
+      <tp scId="19f943fa-aec7-4e5f-a012-275c7d963c5f" sorId="89481326-73b6-4fce-ae8b-293294445c37" />
+      <tp scId="45fa5a68-45e5-4fef-936b-499ca8b736bd" sorId="89481326-73b6-4fce-ae8b-293294445c37" />
+      <tp scId="42bf21bc-45c6-4efe-9711-06ebdd05b6a4" sorId="89481326-73b6-4fce-ae8b-293294445c37" />
+      <tp scId="5e5d2cf9-4329-435d-b603-6f19c8e66bca" sorId="0cc911d9-7884-4f89-b6e3-d236b135aa30" />
+      <tp scId="22a7deb0-cedb-4809-be5b-2722c240c411" sorId="7b5477a6-f3d7-4680-9f60-1125080bb8cb" />
+      <tp scId="df18527f-5fb3-409f-aa8b-b9df7ce47f2b" sorId="89481326-73b6-4fce-ae8b-293294445c37" />
+      <tp scId="10ac6ed9-0f7f-4002-8121-6cd1fa6f18f4" sorId="0cc911d9-7884-4f89-b6e3-d236b135aa30" />
+      <tp scId="518655aa-b698-473c-bee6-7227520547e4" sorId="7b5477a6-f3d7-4680-9f60-1125080bb8cb" />
+      <tp scId="5a509b7e-f538-4cf9-a746-4c83d9ab65bc" sorId="89481326-73b6-4fce-ae8b-293294445c37" />
+      <tp scId="9c40323a-8729-4f48-9274-7219c829a423" sorId="0cc911d9-7884-4f89-b6e3-d236b135aa30" />
+      <tp scId="72459fea-f16a-447e-a05f-2fe376035e1f" sorId="7b5477a6-f3d7-4680-9f60-1125080bb8cb" />
+      <tp scId="613371ea-8406-4f32-bad0-4aae0df778e1" sorId="89481326-73b6-4fce-ae8b-293294445c37" />
+      <tp scId="19602bf3-619f-4289-940b-f0e6192dc718" sorId="0cc911d9-7884-4f89-b6e3-d236b135aa30" />
+      <tp scId="09e5d406-3adc-45cc-895f-609849003598" sorId="7b5477a6-f3d7-4680-9f60-1125080bb8cb" />
+      <tp scId="0e5abab5-8a80-45da-93fd-9dad7a61ae95" sorId="89481326-73b6-4fce-ae8b-293294445c37" />
+      <tp scId="0bc41cc1-c1e0-4eee-9ff1-be3023d302bf" sorId="0cc911d9-7884-4f89-b6e3-d236b135aa30" />
+      <tp scId="088826a8-022a-47fa-b392-81606d42106f" sorId="7b5477a6-f3d7-4680-9f60-1125080bb8cb" />
+      <tp scId="93cbcf1a-41e2-4086-a6c1-5a4659285f66" sorId="89481326-73b6-4fce-ae8b-293294445c37" />
+      <tp scId="416d7b59-a81c-435f-92b2-6d066a6ee09e" sorId="0cc911d9-7884-4f89-b6e3-d236b135aa30" />
+      <tp scId="1894a7ca-3ea1-4a5a-b224-cb4a899380c6" sorId="7b5477a6-f3d7-4680-9f60-1125080bb8cb" />
+    </tr>
+  </tracks>
+</dataModel>

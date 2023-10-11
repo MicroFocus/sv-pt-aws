@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataModel version="5.9.0.1616" id="f0461b6e-8b09-40cc-92f4-7453cd7d091c" name="Portfolio Suggestion Data Model" description="Data Model for Portfolio Suggestion Service" parentServiceId="d469b40b-f587-4334-9099-1d5073abf802" serviceDescription="66e4dfed-d2e7-40b3-9156-9c4a22f7802f" realServiceForwardingEnabled="false" xmlns="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <serviceDescriptions>
+    <serviceDescription serviceDescriptionId="66e4dfed-d2e7-40b3-9156-9c4a22f7802f" />
+  </serviceDescriptions>
+  <serviceOperations>
+    <serviceOperation id="f2d6f114-29b3-40ca-b838-822a2082f659" operationId="any-uri-operation">
+      <activities>
+        <requestActivity id="1" name="Request" serviceDescriptionId="66e4dfed-d2e7-40b3-9156-9c4a22f7802f" operationId="any-uri-operation" />
+        <responseActivity id="2" name="Response" serviceDescriptionId="66e4dfed-d2e7-40b3-9156-9c4a22f7802f" operationId="any-uri-operation" />
+      </activities>
+      <serviceCallSchema operationId="any-uri-operation" operationName="**" timeStamp="638290251073242850">
+        <xpointerTree r="1" m="51">
+          <i v="1" c="2,3" />
+          <i v="2" p="1" c="6,7,18" />
+          <i v="3" p="1" c="4,5,19,50" />
+          <i v="4" p="1,3" />
+          <i v="5" p="1,3" c="8,9" />
+          <i v="6" p="1,2" />
+          <i v="7" p="1,2" c="11,12,13,14,15,16,17" />
+          <i v="8" p="1,3,5" />
+          <i v="9" p="1,3,5" c="10,49" />
+          <i v="10" p="1,3,5,9" />
+          <i v="11" p="1,2,7" />
+          <i v="12" p="1,2,7" />
+          <i v="13" p="1,2,7" />
+          <i v="14" p="1,2,7" />
+          <i v="15" p="1,2,7" />
+          <i v="16" p="1,2,7" />
+          <i v="17" p="1,2,7" />
+          <i v="18" p="1,2" c="39,40,41,42" />
+          <i v="19" p="1,3" c="20,21,22,23,24" />
+          <i v="20" p="1,3,19" c="25,26,27,28,29" />
+          <i v="21" p="1,3,19" c="30" />
+          <i v="22" p="1,3,19" />
+          <i v="23" p="1,3,19" />
+          <i v="24" p="1,3,19" />
+          <i v="25" p="1,3,19,20" />
+          <i v="26" p="1,3,19,20" />
+          <i v="27" p="1,3,19,20" />
+          <i v="28" p="1,3,19,20" />
+          <i v="29" p="1,3,19,20" />
+          <i v="30" p="1,3,19,21" c="31" />
+          <i v="31" p="1,3,19,21,30" c="32,33,34,35,36,37,38" />
+          <i v="32" p="1,3,19,21,30,31" />
+          <i v="33" p="1,3,19,21,30,31" />
+          <i v="34" p="1,3,19,21,30,31" />
+          <i v="35" p="1,3,19,21,30,31" />
+          <i v="36" p="1,3,19,21,30,31" />
+          <i v="37" p="1,3,19,21,30,31" />
+          <i v="38" p="1,3,19,21,30,31" />
+          <i v="39" p="1,2,18" />
+          <i v="40" p="1,2,18" />
+          <i v="41" p="1,2,18" c="43,44" />
+          <i v="42" p="1,2,18" c="45,46,47,48" />
+          <i v="43" p="1,2,18,41" />
+          <i v="44" p="1,2,18,41" />
+          <i v="45" p="1,2,18,42" />
+          <i v="46" p="1,2,18,42" />
+          <i v="47" p="1,2,18,42" />
+          <i v="48" p="1,2,18,42" />
+          <i v="49" p="1,3,5,9" />
+          <i v="50" p="1,3" c="51" />
+          <i v="51" p="1,3,50" />
+        </xpointerTree>
+        <arrayPointerTree r="1" m="7">
+          <i v="1" c="2,3,4,5,6,7" />
+          <i v="2" p="1" />
+          <i v="3" p="1" />
+          <i v="4" p="1" />
+          <i v="5" p="1" />
+          <i v="6" p="1" />
+          <i v="7" p="1" />
+        </arrayPointerTree>
+        <entityIdCache nfIndex="1">
+          <item id="66e4dfed-d2e7-40b3-9156-9c4a22f7802f" index="0" refCount="2" />
+        </entityIdCache>
+        <serviceTypes>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" dname="Type of element 'HTTPInputParameters'">
+            <children>
+              <ed ndId="UriPath" dname="UriPath" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="UriPath" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" discriminatorName="UriPath" />
+              <ed ndId="ClientAddress" dname="ClientAddress" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="ClientAddress" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="Parameters" dname="Parameters" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Parameters/type::*)" name="Parameters" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="UnnamedParameters" dname="UnnamedParameters" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:UnnamedParameters/type::*)" name="UnnamedParameters" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="Headers" dname="Headers" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Headers/type::*)" name="Headers" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="Method" dname="Method" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Method/type::*)" name="Method" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="Transport" dname="Transport" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Transport/type::*)" name="Transport" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Headers/type::*)" dname="Type of element 'Headers'">
+            <children />
+          </complexSchemaType>
+          <enumerationSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Method/type::*)" dname="Type of element 'Method'">
+            <typeFamily>String</typeFamily>
+            <xmlTypeCode>String</xmlTypeCode>
+            <facets>
+              <enumeration>
+                <value>DELETE</value>
+                <value>GET</value>
+                <value>HEAD</value>
+                <value>OPTIONS</value>
+                <value>POST</value>
+                <value>PUT</value>
+                <value>PATCH</value>
+                <value>TRACE</value>
+              </enumeration>
+            </facets>
+            <value>DELETE</value>
+            <value>GET</value>
+            <value>HEAD</value>
+            <value>OPTIONS</value>
+            <value>POST</value>
+            <value>PUT</value>
+            <value>PATCH</value>
+            <value>TRACE</value>
+          </enumerationSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Parameters/type::*)" dname="Type of element 'Parameters'">
+            <children />
+          </complexSchemaType>
+          <enumerationSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:Transport/type::*)" dname="Type of element 'Transport'">
+            <typeFamily>String</typeFamily>
+            <xmlTypeCode>String</xmlTypeCode>
+            <facets>
+              <enumeration>
+                <value>HTTP</value>
+                <value>HTTPS</value>
+              </enumeration>
+            </facets>
+            <value>HTTP</value>
+            <value>HTTPS</value>
+          </enumerationSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*/groupBase::*/ns0:UnnamedParameters/type::*)" dname="Type of element 'UnnamedParameters'">
+            <children />
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*)" dname="Type of element 'HTTPOutputParameters'">
+            <children>
+              <ed ndId="StatusCode" dname="StatusCode" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*/groupBase::*/ns0:StatusCode/type::*)" name="StatusCode" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" defaultValue="200" />
+              <ed ndId="Headers" dname="Headers" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*)" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*/groupBase::*/ns0:Headers/type::*)" name="Headers" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*/groupBase::*/ns0:Headers/type::*)" dname="Type of element 'Headers'">
+            <children>
+              <ed ndId="Content-Type" dname="Content-Type" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*/groupBase::*/ns0:Headers/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="Content-Type" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" defaultValue="text/plain" />
+              <ed ndId="Date" dname="Date" defKind="Element" sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*/groupBase::*/ns0:Headers/type::*)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="Date" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+            </children>
+          </complexSchemaType>
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*/groupBase::*/ns0:StatusCode/type::*)" dname="Type of element 'StatusCode'">
+            <typeFamily>Integer</typeFamily>
+            <xmlTypeCode>Int</xmlTypeCode>
+            <facets>
+              <maxInclusive>599</maxInclusive>
+              <minInclusive>100</minInclusive>
+            </facets>
+          </simpleSchemaType>
+          <simpleSchemaType sdId="0" ntId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" dname="string">
+            <typeFamily>String</typeFamily>
+            <xmlTypeCode>String</xmlTypeCode>
+            <facets />
+          </simpleSchemaType>
+          <complexSchemaType sdId="0" ntId="xpath(type::AssetType)" dname="AssetType">
+            <children>
+              <ed ndId="ISIN" dname="ISIN" defKind="Element" sdId="0" ntId="xpath(type::AssetType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="ISIN" namespace="" editable="false" />
+              <ed ndId="Name" dname="Name" defKind="Element" sdId="0" ntId="xpath(type::AssetType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="Name" namespace="" editable="false" />
+              <ed ndId="Type" dname="Type" defKind="Element" sdId="0" ntId="xpath(type::AssetType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="Type" namespace="" editable="false" />
+              <ed ndId="Units" dname="Units" defKind="Element" sdId="0" ntId="xpath(type::AssetType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="Units" namespace="" editable="false" />
+              <ed ndId="PriceInUSD" dname="PriceInUSD" defKind="Element" sdId="0" ntId="xpath(type::AssetType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="PriceInUSD" namespace="" editable="false" />
+              <ed ndId="RiskScore" dname="RiskScore" defKind="Element" sdId="0" ntId="xpath(type::AssetType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="RiskScore" namespace="" editable="false" />
+              <ed ndId="MarketQuoteTime" dname="MarketQuoteTime" defKind="Element" sdId="0" ntId="xpath(type::AssetType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="MarketQuoteTime" namespace="" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xpath(type::CustomerType)" dname="CustomerType">
+            <children>
+              <ed ndId="Name" dname="Name" defKind="Element" sdId="0" ntId="xpath(type::CustomerType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="Name" namespace="" editable="false" />
+              <ed ndId="Surname" dname="Surname" defKind="Element" sdId="0" ntId="xpath(type::CustomerType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="Surname" namespace="" editable="false" />
+              <ed ndId="Citizenship" dname="Citizenship" defKind="Element" sdId="0" ntId="xpath(type::CustomerType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="Citizenship" namespace="" editable="false" />
+              <ed ndId="CityOfResidence" dname="CityOfResidence" defKind="Element" sdId="0" ntId="xpath(type::CustomerType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="CityOfResidence" namespace="" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xpath(type::IntendedInvestmentValueType)" dname="IntendedInvestmentValueType">
+            <children>
+              <ed ndId="Value" dname="Value" defKind="Element" sdId="0" ntId="xpath(type::IntendedInvestmentValueType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="Value" namespace="" editable="false" />
+              <ed ndId="Currency" dname="Currency" defKind="Element" sdId="0" ntId="xpath(type::IntendedInvestmentValueType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="Currency" namespace="" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xpath(type::KYCType)" dname="KYCType">
+            <children>
+              <ed ndId="Name" dname="Name" defKind="Element" sdId="0" ntId="xpath(type::KYCType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="Name" namespace="" editable="false" />
+              <ed ndId="Surname" dname="Surname" defKind="Element" sdId="0" ntId="xpath(type::KYCType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="Surname" namespace="" editable="false" />
+              <ed ndId="Citizenship" dname="Citizenship" defKind="Element" sdId="0" ntId="xpath(type::KYCType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="Citizenship" namespace="" editable="false" />
+              <ed ndId="CityOfResidence" dname="CityOfResidence" defKind="Element" sdId="0" ntId="xpath(type::KYCType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="CityOfResidence" namespace="" editable="false" />
+              <ed ndId="UniqueIdentifier" dname="UniqueIdentifier" defKind="Element" sdId="0" ntId="xpath(type::KYCType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="UniqueIdentifier" namespace="" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xpath(type::PortfolioSuggestionType)" dname="PortfolioSuggestionType">
+            <children>
+              <ed ndId="KYC" dname="KYC" defKind="Element" sdId="0" ntId="xpath(type::PortfolioSuggestionType)" stSdId="0" stNtId="xpath(type::KYCType)" name="KYC" namespace="" editable="false" />
+              <ed ndId="SuggestedAssets" dname="SuggestedAssets" defKind="Element" sdId="0" ntId="xpath(type::PortfolioSuggestionType)" stSdId="0" stNtId="xpath(type::SuggestedAssetsType)" name="SuggestedAssets" namespace="" editable="false" />
+              <ed ndId="TotalValueInUSD" dname="TotalValueInUSD" defKind="Element" sdId="0" ntId="xpath(type::PortfolioSuggestionType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="TotalValueInUSD" namespace="" editable="false" />
+              <ed ndId="Hash" dname="Hash" defKind="Element" sdId="0" ntId="xpath(type::PortfolioSuggestionType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="Hash" namespace="" editable="false" />
+              <ed ndId="TransactionId" dname="TransactionId" defKind="Element" sdId="0" ntId="xpath(type::PortfolioSuggestionType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="TransactionId" namespace="" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xpath(type::SuggestedAssetsType)" dname="SuggestedAssetsType">
+            <children>
+              <aed ndId="Asset" dname="Asset[]" defKind="Element" sdId="0" ntId="xpath(type::SuggestedAssetsType)" stSdId="0" stNtId="xpath(type::SuggestedAssetsType/groupBase::*/Asset/artificial::*)" editable="false" min="1" max="2147483647" />
+            </children>
+          </complexSchemaType>
+          <arrayEnvelopeSchemaType sdId="0" ntId="xpath(type::SuggestedAssetsType/groupBase::*/Asset/artificial::*)" dname="Asset[]">
+            <ed ndId=":" dname="item" defKind="Element" sdId="0" ntId="xpath(type::SuggestedAssetsType/groupBase::*/Asset/artificial::*)" stSdId="0" stNtId="xpath(type::AssetType)" name="Asset" namespace="" editable="false" />
+          </arrayEnvelopeSchemaType>
+          <complexSchemaType sdId="0" ntId="xpath(type::SuggestPortfolioStructureType)" dname="SuggestPortfolioStructureType">
+            <children>
+              <ed ndId="Purpose" dname="Purpose" defKind="Element" sdId="0" ntId="xpath(type::SuggestPortfolioStructureType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="Purpose" namespace="" editable="false" />
+              <ed ndId="RiskLevel" dname="RiskLevel" defKind="Element" sdId="0" ntId="xpath(type::SuggestPortfolioStructureType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="RiskLevel" namespace="" editable="false" />
+              <ed ndId="IntendedInvestmentValue" dname="IntendedInvestmentValue" defKind="Element" sdId="0" ntId="xpath(type::SuggestPortfolioStructureType)" stSdId="0" stNtId="xpath(type::IntendedInvestmentValueType)" name="IntendedInvestmentValue" namespace="" editable="false" />
+              <ed ndId="Customer" dname="Customer" defKind="Element" sdId="0" ntId="xpath(type::SuggestPortfolioStructureType)" stSdId="0" stNtId="xpath(type::CustomerType)" name="Customer" namespace="" editable="false" />
+            </children>
+          </complexSchemaType>
+          <complexSchemaType sdId="0" ntId="xpath(type::UnsupportedType)" dname="UnsupportedType">
+            <children>
+              <ed ndId="Message" dname="Message" defKind="Element" sdId="0" ntId="xpath(type::UnsupportedType)" stSdId="0" stNtId="xmlns(ns0=http://www.w3.org/2001/XMLSchema)xpath(type::ns0:string)" name="Message" namespace="" editable="false" />
+            </children>
+          </complexSchemaType>
+        </serviceTypes>
+        <activityRoots>
+          <activityRootSchemaType activityId="1" activityInOut="Output" xPointer="2" sdId="0" ntId="Input:any-uri-operation" dname="OperationInputBase">
+            <childrenOfSubtypes>
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters)" dname="HTTPInputParameters" defKind="Element" sdId="0" ntId="common-input" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPInputParameters/type::*)" name="HTTPInputParameters" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="xpath(SuggestPortfolioStructure)" dname="SuggestPortfolioStructure" defKind="Element" sdId="0" ntId="a40d5cde-4bcc-4fe4-9776-147ca6f0faa5" stSdId="0" stNtId="xpath(type::SuggestPortfolioStructureType)" name="SuggestPortfolioStructure" namespace="" editable="false" />
+            </childrenOfSubtypes>
+            <subTypes>
+              <subTypeId ntId="empty" />
+              <subTypeId ntId="a40d5cde-4bcc-4fe4-9776-147ca6f0faa5" />
+            </subTypes>
+            <typeSelector />
+            <superTypes>
+              <nodeType ntId="empty">
+                <superTypeId ntId="empty" />
+                <superTypeId ntId="Input:any-uri-operation" />
+                <superTypeId ntId="common-input" />
+              </nodeType>
+              <nodeType ntId="a40d5cde-4bcc-4fe4-9776-147ca6f0faa5">
+                <superTypeId ntId="a40d5cde-4bcc-4fe4-9776-147ca6f0faa5" />
+                <superTypeId ntId="Input:any-uri-operation" />
+                <superTypeId ntId="common-input" />
+              </nodeType>
+            </superTypes>
+            <subTypeDisplayNames>
+              <nodeType ntId="empty" displayName="No content" />
+              <nodeType ntId="a40d5cde-4bcc-4fe4-9776-147ca6f0faa5" displayName="SuggestPortfolioStructure" />
+            </subTypeDisplayNames>
+          </activityRootSchemaType>
+          <activityRootSchemaType activityId="2" activityInOut="Input" xPointer="3" sdId="0" ntId="Output:any-uri-operation" dname="OperationOutputBase">
+            <childrenOfSubtypes>
+              <ed ndId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters)" dname="HTTPOutputParameters" defKind="Element" sdId="0" ntId="common-output" stSdId="0" stNtId="xmlns(ns0=http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP)xpath(ns0:HTTPOutputParameters/type::*)" name="HTTPOutputParameters" namespace="http://hp.com/SOAQ/ServiceVirtualization/2010/HTTP" editable="false" />
+              <ed ndId="xpath(PortfolioSuggestion)" dname="PortfolioSuggestion" defKind="Element" sdId="0" ntId="4ce323f3-4fcb-4d39-8996-e1185b2cb153" stSdId="0" stNtId="xpath(type::PortfolioSuggestionType)" name="PortfolioSuggestion" namespace="" editable="false" />
+              <ed ndId="xpath(Unsupported)" dname="Unsupported" defKind="Element" sdId="0" ntId="f4c8e1ff-66d6-4174-b8c4-ca2858477622" stSdId="0" stNtId="xpath(type::UnsupportedType)" name="Unsupported" namespace="" editable="false" />
+            </childrenOfSubtypes>
+            <subTypes>
+              <subTypeId ntId="empty" />
+              <subTypeId ntId="4ce323f3-4fcb-4d39-8996-e1185b2cb153" />
+              <subTypeId ntId="f4c8e1ff-66d6-4174-b8c4-ca2858477622" />
+            </subTypes>
+            <typeSelector />
+            <superTypes>
+              <nodeType ntId="empty">
+                <superTypeId ntId="empty" />
+                <superTypeId ntId="Output:any-uri-operation" />
+                <superTypeId ntId="common-output" />
+              </nodeType>
+              <nodeType ntId="4ce323f3-4fcb-4d39-8996-e1185b2cb153">
+                <superTypeId ntId="4ce323f3-4fcb-4d39-8996-e1185b2cb153" />
+                <superTypeId ntId="Output:any-uri-operation" />
+                <superTypeId ntId="common-output" />
+              </nodeType>
+              <nodeType ntId="f4c8e1ff-66d6-4174-b8c4-ca2858477622">
+                <superTypeId ntId="f4c8e1ff-66d6-4174-b8c4-ca2858477622" />
+                <superTypeId ntId="Output:any-uri-operation" />
+                <superTypeId ntId="common-output" />
+              </nodeType>
+            </superTypes>
+            <subTypeDisplayNames>
+              <nodeType ntId="empty" displayName="No content" />
+              <nodeType ntId="4ce323f3-4fcb-4d39-8996-e1185b2cb153" displayName="PortfolioSuggestion" />
+              <nodeType ntId="f4c8e1ff-66d6-4174-b8c4-ca2858477622" displayName="Unsupported" />
+            </subTypeDisplayNames>
+          </activityRootSchemaType>
+        </activityRoots>
+        <arrayEnvelopeXPointer values="30" />
+      </serviceCallSchema>
+    </serviceOperation>
+  </serviceOperations>
+  <rules>
+    <custom id="0de38d15-d622-4f92-af1c-ba5b2daf3166" name="CZK - unsupported" description="Custom rule created by the user" />
+    <custom id="54d96c90-7658-4817-8376-d8afd2751cb5" name="Sanctions on Iran - unsupported" description="Custom rule created by the user" />
+    <custom id="f4d6f7e7-daec-49bd-9a8d-9d8e57f6e258" name="Set asset count to 50" description="Custom rule created by the user" />
+    <custom id="d3a44eb7-ffc3-43f6-af0c-afdb403cf709" name="Copy Customer data to response" description="Custom rule created by the user" />
+    <custom id="c355f801-af3e-472d-bd3d-be0479ecd01c" name="Set MarketQuoteTime to -10 minutes" description="Custom rule created by the user" />
+    <custom id="ae7c64fc-5ae0-4929-90cf-b326750f2f86" name="Samples from Documentation" description="Custom rule created by the user" />
+    <custom id="b7f88923-7275-488f-af6d-31c63210f144" name="Generate random asset values" description="Custom rule created by the user" />
+    <learned id="87def1d5-f47c-4f0a-9596-3cee947eedb4" name="Learned Data" description="All of the data collected during the Learning phase" />
+    <default id="2b7cbcbe-10fa-4963-86d8-4821c86b0dec" name="Default Response" description="The default response when no matches were found" />
+  </rules>
+  <serviceOperationRules>
+    <serviceOperationDataRule id="e6bfe819-696a-4003-90a6-2b9bc39efaf3" name="Rule e6bfe819-696a-4003-90a6-2b9bc39efaf3" serviceOperationId="f2d6f114-29b3-40ca-b838-822a2082f659" ruleId="0de38d15-d622-4f92-af1c-ba5b2daf3166" inScope="true" responseCountFn="Ignore" responseIndexFn="Ignore" forwardToRealServiceFn="Ignore" rowsUsingRealResponse="0">
+      <allActivities />
+      <datasetIds>
+        <datasetId>db734583-df84-422b-abcf-446ef67d4873</datasetId>
+      </datasetIds>
+      <nodeFunctions>
+        <ignoreAction targetNodeXPointer="2" />
+        <ignoreCondition targetNodeXPointer="3" />
+        <setAction targetNodeXPointer="4" />
+        <isCondition targetNodeXPointer="6" />
+        <ignoreCondition targetNodeXPointer="7" />
+        <ignoreAction targetNodeXPointer="8" />
+        <setAction targetNodeXPointer="10" />
+        <ignoreAction targetNodeXPointer="19" />
+        <ignoreCondition targetNodeXPointer="39" />
+        <ignoreCondition targetNodeXPointer="40" />
+        <ignoreCondition targetNodeXPointer="42" />
+        <ignoreCondition targetNodeXPointer="43" />
+        <isCondition targetNodeXPointer="44" />
+        <ignoreAction targetNodeXPointer="49" />
+        <setAction targetNodeXPointer="50" />
+      </nodeFunctions>
+      <serviceCalls>
+        <serviceCall id="6c0bd803-b620-4ca4-aa2a-522bdb9e2fb0" simHc="31555" anaHc="393128871" />
+      </serviceCalls>
+    </serviceOperationDataRule>
+    <serviceOperationDataRule id="6ef00807-5231-414d-9576-dfb4dad2b544" name="Rule 6ef00807-5231-414d-9576-dfb4dad2b544" serviceOperationId="f2d6f114-29b3-40ca-b838-822a2082f659" ruleId="54d96c90-7658-4817-8376-d8afd2751cb5" inScope="true" responseCountFn="Ignore" responseIndexFn="Ignore" forwardToRealServiceFn="Ignore" rowsUsingRealResponse="0">
+      <allActivities />
+      <datasetIds>
+        <datasetId>184b8a5b-49cc-4496-8498-e535a239cbc8</datasetId>
+      </datasetIds>
+      <nodeFunctions>
+        <ignoreAction targetNodeXPointer="2" />
+        <ignoreCondition targetNodeXPointer="3" />
+        <setAction targetNodeXPointer="4" />
+        <isCondition targetNodeXPointer="6" />
+        <ignoreCondition targetNodeXPointer="7" />
+        <ignoreAction targetNodeXPointer="8" />
+        <setAction targetNodeXPointer="10" />
+        <ignoreAction targetNodeXPointer="19" />
+        <ignoreCondition targetNodeXPointer="39" />
+        <ignoreCondition targetNodeXPointer="40" />
+        <ignoreCondition targetNodeXPointer="41" />
+        <ignoreCondition targetNodeXPointer="45" />
+        <ignoreCondition targetNodeXPointer="46" />
+        <isCondition targetNodeXPointer="47" />
+        <ignoreCondition targetNodeXPointer="48" />
+        <ignoreAction targetNodeXPointer="49" />
+        <setAction targetNodeXPointer="50" />
+      </nodeFunctions>
+      <serviceCalls>
+        <serviceCall id="a90e1226-58c9-438f-a1c2-222ae87591c0" simHc="1503028" anaHc="2068840678" />
+      </serviceCalls>
+    </serviceOperationDataRule>
+    <serviceOperationDataRule id="a9662ee1-b09e-4fc5-a437-5cb8d5b420d0" name="Rule a9662ee1-b09e-4fc5-a437-5cb8d5b420d0" serviceOperationId="f2d6f114-29b3-40ca-b838-822a2082f659" ruleId="f4d6f7e7-daec-49bd-9a8d-9d8e57f6e258" inScope="true" responseCountFn="Ignore" responseIndexFn="Ignore" forwardToRealServiceFn="Ignore" rowsUsingRealResponse="0">
+      <allActivities />
+      <datasetIds>
+        <datasetId>3444f892-6114-49bf-9ac3-7954839604fc</datasetId>
+      </datasetIds>
+      <nodeFunctions>
+        <ignoreAction targetNodeXPointer="2" />
+        <ignoreCondition targetNodeXPointer="2" />
+        <ignoreCondition targetNodeXPointer="3" />
+        <setAction targetNodeXPointer="4" />
+        <ignoreAction targetNodeXPointer="5" />
+        <ignoreAction targetNodeXPointer="20" />
+        <ignoreAction targetNodeXPointer="22" />
+        <ignoreAction targetNodeXPointer="23" />
+        <ignoreAction targetNodeXPointer="24" />
+        <setArrayItemsCountAction targetNodeXPointer="30">
+          <globalParameter>50</globalParameter>
+        </setArrayItemsCountAction>
+        <setAction targetNodeXPointer="31" />
+        <ignoreAction targetNodeXPointer="50" />
+      </nodeFunctions>
+      <serviceCalls>
+        <serviceCall id="fdd835e0-ca57-4f1e-bc3a-de3759027bfa" simHc="0" anaHc="0" />
+      </serviceCalls>
+    </serviceOperationDataRule>
+    <serviceOperationDataRule id="4c4369bf-2929-4dc2-bc96-5ced4964b63f" name="Rule 4c4369bf-2929-4dc2-bc96-5ced4964b63f" serviceOperationId="f2d6f114-29b3-40ca-b838-822a2082f659" ruleId="d3a44eb7-ffc3-43f6-af0c-afdb403cf709" inScope="true" responseCountFn="Ignore" responseIndexFn="Ignore" forwardToRealServiceFn="Ignore" rowsUsingRealResponse="0">
+      <allActivities />
+      <datasetIds>
+        <datasetId>06d10a34-ba2a-4379-902e-3d7d8fc28e64</datasetId>
+      </datasetIds>
+      <nodeFunctions>
+        <ignoreAction targetNodeXPointer="2" />
+        <ignoreCondition targetNodeXPointer="3" />
+        <setAction targetNodeXPointer="4" />
+        <ignoreAction targetNodeXPointer="5" />
+        <isCondition targetNodeXPointer="6" />
+        <ignoreCondition targetNodeXPointer="7" />
+        <ignoreCondition targetNodeXPointer="18" />
+        <ignoreAction targetNodeXPointer="21" />
+        <ignoreAction targetNodeXPointer="22" />
+        <ignoreAction targetNodeXPointer="23" />
+        <sequentialNumberGeneratorAction targetNodeXPointer="24" />
+        <copyFromAction targetNodeXPointer="25">
+          <globalParameter>45</globalParameter>
+        </copyFromAction>
+        <copyFromAction targetNodeXPointer="26">
+          <globalParameter>46</globalParameter>
+        </copyFromAction>
+        <copyFromAction targetNodeXPointer="27">
+          <globalParameter>47</globalParameter>
+        </copyFromAction>
+        <copyFromAction targetNodeXPointer="28">
+          <globalParameter>48</globalParameter>
+        </copyFromAction>
+        <ignoreAction targetNodeXPointer="29" />
+        <ignoreAction targetNodeXPointer="50" />
+      </nodeFunctions>
+      <serviceCalls>
+        <serviceCall id="2b551c0e-0874-4026-b245-61261d6bd790" simHc="0" anaHc="0" />
+      </serviceCalls>
+    </serviceOperationDataRule>
+    <serviceOperationDataRule id="9c943c76-fffb-4488-acf5-c4c361818e49" name="Rule 9c943c76-fffb-4488-acf5-c4c361818e49" serviceOperationId="f2d6f114-29b3-40ca-b838-822a2082f659" ruleId="c355f801-af3e-472d-bd3d-be0479ecd01c" inScope="true" responseCountFn="Ignore" responseIndexFn="Ignore" forwardToRealServiceFn="Ignore" rowsUsingRealResponse="0">
+      <allActivities />
+      <datasetIds>
+        <datasetId>8f4d6393-4039-4648-96f6-eda0cfb08013</datasetId>
+      </datasetIds>
+      <nodeFunctions>
+        <ignoreAction targetNodeXPointer="2" />
+        <ignoreCondition targetNodeXPointer="2" />
+        <ignoreCondition targetNodeXPointer="3" />
+        <setAction targetNodeXPointer="4" />
+        <ignoreAction targetNodeXPointer="5" />
+        <ignoreAction targetNodeXPointer="20" />
+        <ignoreAction targetNodeXPointer="22" />
+        <ignoreAction targetNodeXPointer="23" />
+        <ignoreAction targetNodeXPointer="24" />
+        <arrayTemplateAction targetNodeXPointer="30" />
+        <ignoreAction targetNodeXPointer="32" />
+        <ignoreAction targetNodeXPointer="33" />
+        <ignoreAction targetNodeXPointer="34" />
+        <ignoreAction targetNodeXPointer="35" />
+        <ignoreAction targetNodeXPointer="36" />
+        <ignoreAction targetNodeXPointer="37" />
+        <setRelativeDateTimeAction targetNodeXPointer="38" />
+        <ignoreAction targetNodeXPointer="50" />
+      </nodeFunctions>
+      <serviceCalls>
+        <serviceCall id="077700e3-56f7-475a-a5ac-67e6c0ae9f66" simHc="0" anaHc="0" />
+      </serviceCalls>
+    </serviceOperationDataRule>
+    <serviceOperationDataRule id="8a85a638-5657-45b4-91dd-4b92dd1866a1" name="Rule 8a85a638-5657-45b4-91dd-4b92dd1866a1" serviceOperationId="f2d6f114-29b3-40ca-b838-822a2082f659" ruleId="ae7c64fc-5ae0-4929-90cf-b326750f2f86" inScope="true" responseCountFn="Ignore" responseIndexFn="Ignore" forwardToRealServiceFn="Ignore" rowsUsingRealResponse="0">
+      <allActivities />
+      <datasetIds>
+        <datasetId>5f81af94-9a6e-4d5c-8a1f-55eb5cf93a6b</datasetId>
+      </datasetIds>
+      <nodeFunctions>
+        <ignoreAction targetNodeXPointer="2" />
+        <ignoreCondition targetNodeXPointer="3" />
+        <setAction targetNodeXPointer="3" />
+        <ignoreCondition targetNodeXPointer="6" />
+        <ignoreCondition targetNodeXPointer="11" />
+        <ignoreCondition targetNodeXPointer="12" />
+        <ignoreCondition targetNodeXPointer="13" />
+        <ignoreCondition targetNodeXPointer="14" />
+        <ignoreCondition targetNodeXPointer="15" />
+        <isCondition targetNodeXPointer="16" />
+        <ignoreCondition targetNodeXPointer="17" />
+        <isCondition targetNodeXPointer="39" />
+        <customCondition targetNodeXPointer="40">
+          <globalParameter>e5625064-0ee6-4ca1-bb87-c58e9960aacf</globalParameter>
+        </customCondition>
+        <ignoreCondition targetNodeXPointer="42" />
+        <ignoreCondition targetNodeXPointer="43" />
+        <isCondition targetNodeXPointer="44" />
+      </nodeFunctions>
+      <serviceCalls>
+        <serviceCall id="e9dbd13e-b538-4dd2-b5af-a33d2724fcc0" simHc="-1879940734" anaHc="1823714250" />
+        <serviceCall id="6243200d-7ae8-47a8-b5bc-890d22daa8b7" simHc="-1879940734" anaHc="-38905750" />
+        <serviceCall id="3bf7a929-4e29-42a4-bad9-7118d203fc63" simHc="-1879940734" anaHc="-1936381924" />
+        <serviceCall id="32a20e7a-c764-4a4a-891f-3ef7316a28fc" simHc="-1494268093" anaHc="325107756" />
+        <serviceCall id="9f37a6e6-ab84-4924-bf70-86f32cf482a5" simHc="-1494268093" anaHc="-2059998757" />
+        <serviceCall id="b576e8f3-5bf7-410b-aa74-c5bf85589a89" simHc="-1494268093" anaHc="690619186" />
+      </serviceCalls>
+    </serviceOperationDataRule>
+    <serviceOperationDataRule id="8eb1d156-e84a-4b4f-afd4-28d9f2ac66c6" name="Rule 8eb1d156-e84a-4b4f-afd4-28d9f2ac66c6" serviceOperationId="f2d6f114-29b3-40ca-b838-822a2082f659" ruleId="b7f88923-7275-488f-af6d-31c63210f144" inScope="true" responseCountFn="Ignore" responseIndexFn="Ignore" forwardToRealServiceFn="Ignore" rowsUsingRealResponse="0">
+      <allActivities />
+      <datasetIds>
+        <datasetId>90a64c82-9761-43c7-a591-6690ca819a54</datasetId>
+      </datasetIds>
+      <nodeFunctions>
+        <ignoreAction targetNodeXPointer="2" />
+        <ignoreCondition targetNodeXPointer="3" />
+        <setAction targetNodeXPointer="4" />
+        <ignoreAction targetNodeXPointer="5" />
+        <isCondition targetNodeXPointer="6" />
+        <ignoreCondition targetNodeXPointer="7" />
+        <ignoreCondition targetNodeXPointer="18" />
+        <ignoreAction targetNodeXPointer="20" />
+        <ignoreAction targetNodeXPointer="22" />
+        <ignoreAction targetNodeXPointer="23" />
+        <ignoreAction targetNodeXPointer="24" />
+        <arrayTemplateAction targetNodeXPointer="30" />
+        <randomNumberGeneratorAction targetNodeXPointer="32" />
+        <randomNumberGeneratorAction targetNodeXPointer="33" />
+        <setAction targetNodeXPointer="34" />
+        <randomNumberGeneratorAction targetNodeXPointer="35" />
+        <randomNumberGeneratorAction targetNodeXPointer="36" />
+        <copyFromAction targetNodeXPointer="37">
+          <globalParameter>40</globalParameter>
+        </copyFromAction>
+        <ignoreAction targetNodeXPointer="38" />
+        <ignoreAction targetNodeXPointer="50" />
+      </nodeFunctions>
+      <serviceCalls>
+        <serviceCall id="5975b1f1-ce2f-47b5-b6c7-fa1efdc818a8" simHc="0" anaHc="-1367410817" />
+      </serviceCalls>
+    </serviceOperationDataRule>
+    <serviceOperationDataRule id="a83eb006-6120-426e-82bb-6a01317f46f3" name="Learned Data" description="All of the data collected during the Learning phase" serviceOperationId="f2d6f114-29b3-40ca-b838-822a2082f659" ruleId="87def1d5-f47c-4f0a-9596-3cee947eedb4" inScope="true" responseCountFn="Set" responseIndexFn="Is" forwardToRealServiceFn="Set" rowsUsingRealResponse="0">
+      <allActivities />
+      <datasetIds>
+        <datasetId>c4dcb5f9-fc31-4b87-bb05-3f1ffde4b478</datasetId>
+      </datasetIds>
+      <nodeFunctions>
+        <ignoreAction targetNodeXPointer="2" />
+        <ignoreCondition targetNodeXPointer="3" />
+        <setAction targetNodeXPointer="3" />
+        <isCondition targetNodeXPointer="6" />
+        <isCondition targetNodeXPointer="11" />
+        <ignoreCondition targetNodeXPointer="12" />
+        <isCondition targetNodeXPointer="13" />
+        <isCondition targetNodeXPointer="14" />
+        <isCondition targetNodeXPointer="15" />
+        <isCondition targetNodeXPointer="16" />
+        <isCondition targetNodeXPointer="17" />
+        <isCondition targetNodeXPointer="18" />
+      </nodeFunctions>
+      <serviceCalls>
+        <serviceCall id="dd27c202-f188-49ca-a59a-d0e497aa7c6d" simHc="742719614" anaHc="-726997133" />
+      </serviceCalls>
+    </serviceOperationDataRule>
+    <serviceOperationDataRule id="97de88fc-d785-46cf-adf1-33b51642714c" name="Default Response" description="The default response when no matches were found" serviceOperationId="f2d6f114-29b3-40ca-b838-822a2082f659" ruleId="2b7cbcbe-10fa-4963-86d8-4821c86b0dec" inScope="true" responseCountFn="Set" responseIndexFn="Ignore" forwardToRealServiceFn="Set" rowsUsingRealResponse="0">
+      <allActivities />
+      <datasetIds>
+        <datasetId>966c6aeb-c7bd-497f-95b4-bf5602559cd3</datasetId>
+      </datasetIds>
+      <nodeFunctions>
+        <ignoreCondition targetNodeXPointer="2" />
+        <ignoreAction targetNodeXPointer="2" />
+        <isCondition targetNodeXPointer="4" />
+        <ignoreAction targetNodeXPointer="4" />
+        <ignoreCondition targetNodeXPointer="5" />
+        <setAction targetNodeXPointer="5" />
+        <setAction targetNodeXPointer="19" />
+        <ignoreCondition targetNodeXPointer="19" />
+        <setAction targetNodeXPointer="50" />
+        <ignoreCondition targetNodeXPointer="50" />
+      </nodeFunctions>
+      <serviceCalls>
+        <serviceCall id="b7d8467f-b7a8-46bd-843d-ad833e134642" simHc="0" anaHc="-1067952807" />
+        <serviceCall id="a6406e1d-3b2a-471d-9d64-73ba8ec9253b" simHc="0" anaHc="883446535" />
+        <serviceCall id="d70367ae-8009-467b-870c-a3f2294af33d" simHc="0" anaHc="1375697220" />
+      </serviceCalls>
+    </serviceOperationDataRule>
+  </serviceOperationRules>
+  <tracks />
+</dataModel>

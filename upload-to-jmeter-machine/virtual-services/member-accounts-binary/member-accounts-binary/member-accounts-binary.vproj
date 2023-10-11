@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{57CE8A06-92F7-4A67-B0B4-1F6A55739FF5}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ServerIdentifier>urn:Embedded Server</ServerIdentifier>
+    <ServerUrl>
+    </ServerUrl>
+    <ProductVersion>3.0</ProductVersion>
+    <ProductEdition>Enterprise</ProductEdition>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="member-accounts-binary Data Model Dataset 001.vsdataset" />
+    <None Include="member-accounts-binary Data Model Dataset 002.vsdataset" />
+    <None Include="member-accounts-binary Data Model Dataset.vsdataset" />
+    <None Include="member-accounts-binary Data Model.vsmodel" />
+    <None Include="member-accounts-binary Limited Performance Model.vspfmodel" />
+    <None Include="member-accounts-binary Offline Performance.vspfmodel" />
+    <None Include="member-accounts-binary Performance Model.vspfmodel" />
+    <None Include="member-accounts-binary Service Description.vsdsc" />
+    <None Include="member-accounts-binary.vs" />
+    <None Include="member-accounts-binary.vsmf" />
+  </ItemGroup>
+</Project>

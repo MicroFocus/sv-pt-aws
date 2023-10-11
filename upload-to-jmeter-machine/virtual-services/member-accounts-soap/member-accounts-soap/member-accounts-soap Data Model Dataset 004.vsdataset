@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ds version="5.9.0.1616" id="a1f8a135-274c-4cfc-9834-c4148e923d3f" vsId="145059a3-78a4-47df-a467-7a4f8291db64" dmId="7697cb2a-14e6-4fae-994b-0bf09adbaa25" sorId="89481326-73b6-4fce-ae8b-293294445c37" hc="225279277" xmlns="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <sc id="0e5abab5-8a80-45da-93fd-9dad7a61ae95" ts="2023-08-01T11:49:07.254Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_InputMessage</ntId>
+    <s p="18:2">0</s>
+    <s p="19:2">3</s>
+    <s p="20:2">809-42-0002</s>
+    <s p="26:1">::1</s>
+    <ec p="29:1" />
+    <s p="30:1">HTTP</s>
+    <s p="32:1">0001-01-01T00:00:00</s>
+    <s p="33:1">809-42-0002</s>
+    <nil p="34:1" />
+    <s p="35:1"></s>
+    <s p="36:1"></s>
+    <s p="37:1">Tue, 01 Aug 2023 11:49:07 GMT</s>
+  </sc>
+  <sc id="19f943fa-aec7-4e5f-a012-275c7d963c5f" ts="2023-08-01T11:48:52.649Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_InputMessage</ntId>
+    <s p="18:2">0</s>
+    <s p="18:3">0</s>
+    <s p="19:2">1</s>
+    <s p="19:3">11</s>
+    <s p="20:2">554-98-0001</s>
+    <s p="20:3">554-98-0011</s>
+    <s p="26:1">::1</s>
+    <ec p="29:1" />
+    <s p="30:1">HTTP</s>
+    <s p="32:1">0001-01-01T00:00:00</s>
+    <s p="33:1"></s>
+    <nil p="34:1" />
+    <s p="35:1"></s>
+    <s p="36:1">Poirot</s>
+    <s p="37:1">Tue, 01 Aug 2023 11:48:52 GMT</s>
+  </sc>
+  <sc id="42bf21bc-45c6-4efe-9711-06ebdd05b6a4" ts="2023-08-01T11:48:56.867Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_InputMessage</ntId>
+    <s p="18:2">0</s>
+    <s p="19:2">2</s>
+    <s p="20:2">332-10-0002</s>
+    <s p="26:1">::1</s>
+    <ec p="29:1" />
+    <s p="30:1">HTTP</s>
+    <s p="32:1">0001-01-01T00:00:00</s>
+    <s p="33:1">332-10-0002</s>
+    <nil p="34:1" />
+    <s p="35:1">Sherlock</s>
+    <s p="36:1">Holmes</s>
+    <s p="37:1">Tue, 01 Aug 2023 11:48:57 GMT</s>
+  </sc>
+  <sc id="45fa5a68-45e5-4fef-936b-499ca8b736bd" ts="2023-08-01T11:48:54.909Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_InputMessage</ntId>
+    <ec p="16:1" />
+    <s p="26:1">::1</s>
+    <ec p="29:1" />
+    <s p="30:1">HTTP</s>
+    <s p="32:1">0001-01-01T00:00:00</s>
+    <s p="33:1"></s>
+    <nil p="34:1" />
+    <s p="35:1">Karel</s>
+    <s p="36:1">Got (fail: not in system)</s>
+    <s p="37:1">Tue, 01 Aug 2023 11:48:55 GMT</s>
+  </sc>
+  <sc id="5a509b7e-f538-4cf9-a746-4c83d9ab65bc" ts="2023-08-01T11:49:02.108Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_InputMessage</ntId>
+    <s p="18:2">0</s>
+    <s p="19:2">2</s>
+    <s p="20:2">332-10-0002</s>
+    <s p="26:1">::1</s>
+    <ec p="29:1" />
+    <s p="30:1">HTTP</s>
+    <s p="32:1">0001-01-01T00:00:00</s>
+    <s p="33:1">332-10-0002</s>
+    <nil p="34:1" />
+    <s p="35:1"></s>
+    <s p="36:1"></s>
+    <s p="37:1">Tue, 01 Aug 2023 11:49:02 GMT</s>
+  </sc>
+  <sc id="5cdc29da-266c-4f02-a789-8662252c27d9" ts="2023-08-01T11:48:49.885Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_InputMessage</ntId>
+    <s p="18:2">0</s>
+    <s p="19:2">1</s>
+    <s p="20:2">554-98-0001</s>
+    <s p="26:1">::1</s>
+    <ec p="29:1" />
+    <s p="30:1">HTTP</s>
+    <s p="32:1">0001-01-01T00:00:00</s>
+    <s p="33:1"></s>
+    <nil p="34:1" />
+    <s p="35:1">Hercule</s>
+    <s p="36:1">Poirot</s>
+    <s p="37:1">Tue, 01 Aug 2023 11:48:50 GMT</s>
+  </sc>
+  <sc id="613371ea-8406-4f32-bad0-4aae0df778e1" ts="2023-08-01T11:49:04.687Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_InputMessage</ntId>
+    <s p="18:2">0</s>
+    <s p="19:2">3</s>
+    <s p="20:2">809-42-0002</s>
+    <s p="26:1">::1</s>
+    <ec p="29:1" />
+    <s p="30:1">HTTP</s>
+    <s p="32:1">0001-01-01T00:00:00</s>
+    <s p="33:1">809-42-0002</s>
+    <nil p="34:1" />
+    <s p="35:1">Albert</s>
+    <s p="36:1">Einstein</s>
+    <s p="37:1">Tue, 01 Aug 2023 11:49:04 GMT</s>
+  </sc>
+  <sc id="93cbcf1a-41e2-4086-a6c1-5a4659285f66" ts="2023-08-01T11:49:10.006Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_InputMessage</ntId>
+    <s p="18:2">0</s>
+    <s p="19:2">3</s>
+    <s p="20:2">809-42-0002</s>
+    <s p="26:1">::1</s>
+    <ec p="29:1" />
+    <s p="30:1">HTTP</s>
+    <s p="32:1">0001-01-01T00:00:00</s>
+    <s p="33:1"></s>
+    <nil p="34:1" />
+    <s p="35:1"></s>
+    <s p="36:1">Einstein</s>
+    <s p="37:1">Tue, 01 Aug 2023 11:49:10 GMT</s>
+  </sc>
+  <sc id="a85d89d4-ea34-48f8-be3b-c8ebdf8c3ff8" ts="2023-08-01T11:48:45.794Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_InputMessage</ntId>
+    <s p="18:2">0</s>
+    <s p="19:2">1</s>
+    <s p="20:2">554-98-0001</s>
+    <s p="26:1">::1</s>
+    <ec p="29:1" />
+    <s p="30:1">HTTP</s>
+    <s p="32:1">0001-01-01T00:00:00</s>
+    <s p="33:1">554-98-0001</s>
+    <nil p="34:1" />
+    <s p="35:1">Hercule</s>
+    <s p="36:1">Poirot</s>
+    <s p="37:1">Tue, 01 Aug 2023 11:48:46 GMT</s>
+  </sc>
+  <sc id="df18527f-5fb3-409f-aa8b-b9df7ce47f2b" ts="2023-08-01T11:48:59.367Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_memberSearch_InputMessage</ntId>
+    <s p="18:2">0</s>
+    <s p="19:2">2</s>
+    <s p="20:2">332-10-0002</s>
+    <s p="26:1">::1</s>
+    <ec p="29:1" />
+    <s p="30:1">HTTP</s>
+    <s p="32:1">0001-01-01T00:00:00</s>
+    <s p="33:1">332-10-0002</s>
+    <nil p="34:1" />
+    <s p="35:1"></s>
+    <s p="36:1"></s>
+    <s p="37:1">Tue, 01 Aug 2023 11:48:59 GMT</s>
+  </sc>
+</ds>

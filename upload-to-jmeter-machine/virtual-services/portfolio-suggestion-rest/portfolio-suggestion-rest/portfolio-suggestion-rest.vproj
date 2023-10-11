@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{2DF52534-4D25-4AA6-A1FC-C1DF635F5A9E}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ServerIdentifier>urn:Embedded Server</ServerIdentifier>
+    <ServerUrl />
+    <ProductVersion>3.0</ProductVersion>
+    <ProductEdition>Enterprise</ProductEdition>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="portfolio-suggestion-rest Data Model Dataset 001.vsdataset" />
+    <None Include="portfolio-suggestion-rest Data Model Dataset 002.vsdataset" />
+    <None Include="portfolio-suggestion-rest Data Model Dataset 003.vsdataset" />
+    <None Include="portfolio-suggestion-rest Data Model Dataset 004.vsdataset" />
+    <None Include="portfolio-suggestion-rest Data Model Dataset 005.vsdataset" />
+    <None Include="portfolio-suggestion-rest Data Model Dataset 006.vsdataset" />
+    <None Include="portfolio-suggestion-rest Data Model Dataset 007.vsdataset" />
+    <None Include="portfolio-suggestion-rest Data Model Dataset 008.vsdataset" />
+    <None Include="portfolio-suggestion-rest Data Model Dataset.vsdataset" />
+    <None Include="portfolio-suggestion-rest Data Model.vsmodel" />
+    <None Include="portfolio-suggestion-rest Description.vsdsc" />
+    <None Include="portfolio-suggestion-rest Limited Performance Model.vspfmodel" />
+    <None Include="portfolio-suggestion-rest Offline Performance.vspfmodel" />
+    <None Include="portfolio-suggestion-rest Performance Model.vspfmodel" />
+    <None Include="portfolio-suggestion-rest.vs" />
+    <None Include="portfolio-suggestion-rest.vsmf" />
+  </ItemGroup>
+</Project>

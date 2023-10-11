@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ds version="5.9.0.1616" id="a7e9df22-6dec-4603-9c7f-f7e7a0ad32ac" vsId="145059a3-78a4-47df-a467-7a4f8291db64" dmId="7697cb2a-14e6-4fae-994b-0bf09adbaa25" sorId="0cc911d9-7884-4f89-b6e3-d236b135aa30" hc="-1237083831" xmlns="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <sc id="0bc41cc1-c1e0-4eee-9ff1-be3023d302bf" ts="2023-08-01T11:49:07.496Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_InputMessage</ntId>
+    <s p="16:1">100</s>
+    <s p="17:1">3</s>
+    <s p="18:1">Saver 100</s>
+    <s p="24:1">::1</s>
+    <ec p="27:1" />
+    <s p="28:1">HTTP</s>
+    <s p="29:1">Tue, 01 Aug 2023 11:49:07 GMT</s>
+    <s p="30:1">3</s>
+  </sc>
+  <sc id="10ac6ed9-0f7f-4002-8121-6cd1fa6f18f4" ts="2023-08-01T11:48:59.607Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_InputMessage</ntId>
+    <s p="16:1">500</s>
+    <s p="17:1">2</s>
+    <s p="18:1">Allpay Select 500</s>
+    <s p="24:1">::1</s>
+    <ec p="27:1" />
+    <s p="28:1">HTTP</s>
+    <s p="29:1">Tue, 01 Aug 2023 11:48:59 GMT</s>
+    <s p="30:1">2</s>
+  </sc>
+  <sc id="19602bf3-619f-4289-940b-f0e6192dc718" ts="2023-08-01T11:49:04.943Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_InputMessage</ntId>
+    <s p="16:1">100</s>
+    <s p="17:1">3</s>
+    <s p="18:1">Saver 100</s>
+    <s p="24:1">::1</s>
+    <ec p="27:1" />
+    <s p="28:1">HTTP</s>
+    <s p="29:1">Tue, 01 Aug 2023 11:49:04 GMT</s>
+    <s p="30:1">3</s>
+  </sc>
+  <sc id="23eb553f-9f21-4252-b9bb-b48f9ca8d6e8" ts="2023-08-01T11:48:50.13Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_InputMessage</ntId>
+    <s p="16:1">1000</s>
+    <s p="17:1">1</s>
+    <s p="18:1">Allpay Total 1000</s>
+    <s p="24:1">::1</s>
+    <ec p="27:1" />
+    <s p="28:1">HTTP</s>
+    <s p="29:1">Tue, 01 Aug 2023 11:48:50 GMT</s>
+    <s p="30:1">1</s>
+  </sc>
+  <sc id="416d7b59-a81c-435f-92b2-6d066a6ee09e" ts="2023-08-01T11:49:10.261Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_InputMessage</ntId>
+    <s p="16:1">100</s>
+    <s p="17:1">3</s>
+    <s p="18:1">Saver 100</s>
+    <s p="24:1">::1</s>
+    <ec p="27:1" />
+    <s p="28:1">HTTP</s>
+    <s p="29:1">Tue, 01 Aug 2023 11:49:10 GMT</s>
+    <s p="30:1">3</s>
+  </sc>
+  <sc id="5e5d2cf9-4329-435d-b603-6f19c8e66bca" ts="2023-08-01T11:48:57.132Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_InputMessage</ntId>
+    <s p="16:1">500</s>
+    <s p="17:1">2</s>
+    <s p="18:1">Allpay Select 500</s>
+    <s p="24:1">::1</s>
+    <ec p="27:1" />
+    <s p="28:1">HTTP</s>
+    <s p="29:1">Tue, 01 Aug 2023 11:48:57 GMT</s>
+    <s p="30:1">2</s>
+  </sc>
+  <sc id="727eb066-b9b8-4c86-8b55-a0580410a426" ts="2023-08-01T11:48:46.094Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_InputMessage</ntId>
+    <s p="16:1">1000</s>
+    <s p="17:1">1</s>
+    <s p="18:1">Allpay Total 1000</s>
+    <s p="24:1">::1</s>
+    <ec p="27:1" />
+    <s p="28:1">HTTP</s>
+    <s p="29:1">Tue, 01 Aug 2023 11:48:46 GMT</s>
+    <s p="30:1">1</s>
+  </sc>
+  <sc id="9c40323a-8729-4f48-9274-7219c829a423" ts="2023-08-01T11:49:02.346Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_InputMessage</ntId>
+    <s p="16:1">500</s>
+    <s p="17:1">2</s>
+    <s p="18:1">Allpay Select 500</s>
+    <s p="24:1">::1</s>
+    <ec p="27:1" />
+    <s p="28:1">HTTP</s>
+    <s p="29:1">Tue, 01 Aug 2023 11:49:02 GMT</s>
+    <s p="30:1">2</s>
+  </sc>
+</ds>

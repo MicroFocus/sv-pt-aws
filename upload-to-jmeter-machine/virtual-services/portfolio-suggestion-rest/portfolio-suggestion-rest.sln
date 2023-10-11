@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.3.0
+Project("") = "portfolio-suggestion-rest", "portfolio-suggestion-rest\portfolio-suggestion-rest.vproj", "{2DF52534-4D25-4AA6-A1FC-C1DF635F5A9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DF52534-4D25-4AA6-A1FC-C1DF635F5A9E}.Debug|x86.Build.0 = Debug|x86
+		{2DF52534-4D25-4AA6-A1FC-C1DF635F5A9E}.Debug|x86.ActiveCfg = Debug|x86
+		{2DF52534-4D25-4AA6-A1FC-C1DF635F5A9E}.Release|x86.Build.0 = Release|x86
+		{2DF52534-4D25-4AA6-A1FC-C1DF635F5A9E}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

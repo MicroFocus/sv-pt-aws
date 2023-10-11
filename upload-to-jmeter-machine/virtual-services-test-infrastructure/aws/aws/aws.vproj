@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{47A75FEA-F935-45D7-A893-990827B8544A}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ServerIdentifier>https://ec2-18-196-2-15.eu-central-1.compute.amazonaws.com:6085/api</ServerIdentifier>
+    <ServerUrl>https://ec2-18-196-2-15.eu-central-1.compute.amazonaws.com:6085/api</ServerUrl>
+    <ProductVersion>3.0</ProductVersion>
+    <ProductEdition>Enterprise</ProductEdition>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="aws-cli Data Model Dataset 001.vsdataset" />
+    <None Include="aws-cli Data Model Dataset 002.vsdataset" />
+    <None Include="aws-cli Data Model Dataset.vsdataset" />
+    <None Include="aws-cli Data Model.vsmodel" />
+    <None Include="aws-cli Limited Performance Model.vspfmodel" />
+    <None Include="aws-cli Offline Performance.vspfmodel" />
+    <None Include="aws-cli Performance Model.vspfmodel" />
+    <None Include="aws-cli Service Description.vsdsc" />
+    <None Include="aws-cli.vs" />
+    <None Include="aws-cli.vsmf" />
+  </ItemGroup>
+</Project>

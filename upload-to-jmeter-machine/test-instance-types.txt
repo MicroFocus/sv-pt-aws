@@ -1,0 +1,16 @@
+#t2.small
+#t2.medium
+#t2.large
+#t2.xlarge
+#t2.2xlarge
+#c6i.large
+#c6i.xlarge
+c6i.2xlarge
+#c6i.4xlarge
+#c6i.8xlarge
+#c6i.16xlarge
+#m5.large
+#m5.xlarge
+#m5.2xlarge
+#m5.4xlarge
+#m5.8xlarge
