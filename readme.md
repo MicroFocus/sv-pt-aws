@@ -84,7 +84,7 @@ CLI parameters:
 `./run-jmeter-test.sh {AMI_ID} {SG_ID} {KEY_NAME} {NOTE}`
 
 Example of the CLI
-
+
 `./run-jmeter-test.sh ami-06f0ecfda9269eff4 sg-0a97cc79e157dbbd0 james-key-2021-11-04 "testing MemberAccounts with inMemory on RDS"`
 
 ## Test result
