@@ -84,12 +84,39 @@ CLI parameters:
 `./run-jmeter-test.sh {AMI_ID} {SG_ID} {KEY_NAME} {NOTE}`
 
 Example of the CLI
-
+
 `./run-jmeter-test.sh ami-06f0ecfda9269eff4 sg-0a97cc79e157dbbd0 james-key-2021-11-04 "testing MemberAccounts with inMemory on RDS"`
 
 ## Test result
 
 Test result are collected in CSV file named `results.csv`
+
+Folder `/results/` contains two examples of gathered results:
+
+### `results-2023-09-04-builtin-vs.xlsx`
+Contains result of SOAP and REST demo service and a portfolio-suggestion REST service used in the [SV Training](https://github.com/MicroFocus/sv-trainings). Amount of gathered data is low as this data are from the early versions of the test harness.
+
+Following table summarizes peak TPS on different AWS instance types:
+
+|                       | member-accounts-binary-test.jmx | member-accounts-soap-test.jmx | portfolio-suggestion-rest-test.jmx |
+|-----------------------|--------------------------------:|------------------------------:|-----------------------------------:|
+| c6i.2xlarge (8 CPUs)  |                           8 142 |                         7 254 |                                508 |
+| c6i.4xlarge (16 CPUs) |                          15 033 |                        13 077 |                              1 007 |
+| c6i.8xlarge (32 CPUs) |                          25 258 |                        24 935 |                              1 949 |
+| c6i.large (2 CPUs)    |                           2 246 |                         1 848 |                                125 |
+| c6i.xlarge (4 CPUs)   |                           4 521 |                         3 839 |                                256 |
+| t2.2xlarge (8 CPUs)   |                           4 781 |                         4 593 |                                447 |
+| t2.large (2 CPUs)     |                           1 863 |                         1 516 |                                121 |
+| t2.medium (2 CPUs)    |                           1 852 |                         1 566 |                                 52 |
+| t2.xlarge (4 CPUs)    |                           3 484 |                         2 804 |                                249 |
+
+### `results-2023-10-04-user-redacted.xlsx`
+Contains results of one user virtual service with and without performance model on two different instances. Excel file contains also charts. Amount of gathered data is quite high since the test used newer version of test harness.
+
+|             | With Performance Model | Without Performance Model |
+|-------------|-----------------------:|--------------------------:|
+| c6i.2xlarge |                  3 239 |                     4 072 |
+| c6i.4xlarge |                  4 112 |                           |
 
 ## Collected Data
 
