@@ -94,9 +94,10 @@ These are the recommended steps to follow:
 - Once you have measured the virtual service Response Time, calculate the theoretical TPS maximum for each virtual service using<br/>`vs1_maximum_tps = cpu_count * 1000 / vs1_rt, ...`
 - Calculate the expected CPU utilization<br/>`vs1_required_tps/vs1_maximum_tps + vs1_required_tps/vs1_maximum_tps + ...`
 - If you calculated more than 100% CPU utilization in the previous step, you will either need to boost your CPU or speed up your virtual services.
-- Once you think you have the parameters right (theoretically), do the real measurement. Keep an eye on the CPU utilization and make sure it never climbs above 80%, otherwise you may not get reproducible results.
+- Once you think you have the parameters right (theoretically), do the real measurement. Keep an eye on the CPU utilization and make sure it never climbs above 80% (or 70% - it depends on the amount of headroom you prefer), otherwise you may not get reproducible results.
 - If your CPU utilization climbs over 80% on the SV Server, add more CPU resources, or optimize your virtual services - see [Hints to improve Response Time](#hints)
-- You should also keep an eye on all other components involved in the load test, like the load generators, SV DB, network, and disk. Optimize or boost the respective component parameters when necessary.
+- You should also keep an eye on all other components involved in the load test, like the load generators, SV DB, network, and disks. Optimize or boost the respective component parameters when necessary.
+- If you are not reaching 80% CPU utilization during the steps above, you should still try to reach it with higher then necessary load since it proofs your setup scales well - you should be always able to get higher throughput and CPU utilization during this phase than what you are expecting during a real load test. This gives you a headroom for anything unexpected.
 
 ## Frequent issues and misconceptions
 
