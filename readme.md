@@ -6,6 +6,8 @@ The motivation for the scripts was to speedup time consuming manual work needed 
 
 Current version of the test harness allows to test SV Server in the Docker on Linux. Helper scripts on your machine are Windows batch files.
 
+If you are new to performance testing with SV, please read [Service Virtualization performance testing introduction](sv-pt-introduction.md)
+
 ## Architecture
 
 The test is executed from JMeter EC2 machine against SV Server EC2 machine. SV Server EC2 machine is created automatically by the script, so different instance types can be automatically tested.
